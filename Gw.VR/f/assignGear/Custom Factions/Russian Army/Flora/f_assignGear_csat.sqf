@@ -443,7 +443,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag,1];
 		_unit addweapon _RAT;
-		["rat"] call _backpack;
 		_attachments = [_attach1,_muzzle];
 	};
 
