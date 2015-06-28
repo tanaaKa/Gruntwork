@@ -19,7 +19,7 @@ Made with Gruntwork.
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert in-mation on administration and logistics here. ***
+*** Insert information on administration and logistics here. ***
 "]];
 
 // ====================================================================================
