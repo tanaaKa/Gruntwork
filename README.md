@@ -3,3 +3,5 @@ Gruntwork is a mission making framework for Arma 3 designed with preformance and
 
 # Credits
 The F3 Team (https://github.com/ferstaberinde/F3)
+Jani (https://github.com/Phantomsmedia)
+Riskke of PhanTactical
