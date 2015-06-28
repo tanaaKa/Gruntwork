@@ -434,7 +434,6 @@ switch (_typeofUnit) do
 
 // LOADOUT: RIFLEMAN (AT)
 	case "rat":
-	{
 		_unit addmagazines [_carbinemag,7];
 		_unit addmagazines [_carbinemag_tr,2];
 		_unit addweapon _carbine;
@@ -442,6 +441,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		(unitBackpack _unit) addMagazineCargoGlobal [_RATmag,1];
 		_unit addweapon _RAT;
+		["rat"] call _backpack;
 		_attachments = [_attach1];
 	};
 
