@@ -147,8 +147,8 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "CUP_B_CivPack_WDL";			// small
-_bagmedium = "CUP_B_AlicePack_Khaki";		// medium
+_bagsmall = "CUP_B_ACRScout_m95";			// small
+_bagmedium = "CUP_B_CivPack_WDL";			// medium
 _baglarge =  "CUP_B_ACRPara_m95"; 			// large
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
 _baguav = "I_UAV_01_backpack_F";			// used by UAV operator

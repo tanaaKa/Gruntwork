@@ -96,6 +96,28 @@ case "aar":
 	};
 };
 
+// BACKPACK: RIFLEMAN AT (RAT)
+case "rat":
+{
+	// LOADOUT: LIGHT
+	if (_loadout == 0) then {
+		_unit addBackpack _bagsmall;
+		clearMagazineCargoGlobal (unitBackpack _unit);
+	};
+
+	// LOADOUT: MEDIUM
+	if (_loadout == 1) then {
+		_unit addBackpack _bagsmall;
+		clearMagazineCargoGlobal (unitBackpack _unit);
+
+	};
+	// LOADOUT: HEAVY
+	if (_loadout == 2) then {
+		_unit addBackpack _bagsmall;
+		clearMagazineCargoGlobal (unitBackpack _unit);
+	};
+};
+
 // BACKPACK: DESIGNATED MARKSMAN (DM)
 case "dm":
 {
