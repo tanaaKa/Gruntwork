@@ -5173,7 +5173,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MMG1_AG";
 					init="GrpCSAT_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;";
-					description="OPFOR Medium MG Team 1 Spotter";
+					description="OPFOR MMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5185,7 +5185,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MMG1_G";
 					init="GrpCSAT_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;";
-					description="OPFOR Medium MG Team 1 Gunner";
+					description="OPFOR MMG Team 1 Gunner";
 				};
 			};
 		};
@@ -5207,7 +5207,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HMG1_AG";
 					init="GrpCSAT_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;";
-					description="OPFOR Heavy MG Team 1 Spotter";
+					description="OPFOR HMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5219,7 +5219,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HMG1_G";
 					init="GrpCSAT_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;";
-					description="OPFOR Heavy MG Team 1 Gunner";
+					description="OPFOR HMG Team 1 Gunner";
 				};
 			};
 		};
@@ -5241,7 +5241,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MAT1_AG";
 					init="GrpCSAT_MAT1 = group this; [""matag"",this] call f_fnc_assignGear; ";
-					description="OPFOR Medium AT Team 1 Spotter";
+					description="OPFOR MAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5253,7 +5253,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MAT1_G";
 					init="GrpCSAT_MAT1 = group this; [""matg"",this] call f_fnc_assignGear;";
-					description="OPFOR Medium AT Team 1 Gunner";
+					description="OPFOR MAT Team 1 Gunner";
 				};
 			};
 		};
@@ -5275,7 +5275,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HAT1_AG";
 					init="GrpCSAT_HAT1 = group this; [""hatag"",this] call f_fnc_assignGear; ";
-					description="OPFOR Heavy AT Team 1 Spotter";
+					description="OPFOR HAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5287,7 +5287,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HAT1_G";
 					init="GrpCSAT_HAT1 = group this; [""hatg"",this] call f_fnc_assignGear;";
-					description="OPFOR Heavy AT Team 1 Gunner";
+					description="OPFOR HAT Team 1 Gunner";
 				};
 			};
 		};
@@ -5343,7 +5343,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MSAM1_AG";
 					init="GrpCSAT_MSAM1 = group this; [""msamag"",this] call f_fnc_assignGear; ";
-					description="OPFOR Medium SAM Team 1 Spotter";
+					description="OPFOR MSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5355,7 +5355,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_MSAM1_G";
 					init="GrpCSAT_MSAM1 = group this; [""msamg"",this] call f_fnc_assignGear;";
-					description="OPFOR Medium SAM Team 1 Gunner";
+					description="OPFOR MSAM Team 1 Gunner";
 				};
 			};
 		};
@@ -5377,7 +5377,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HSAM1_AG";
 					init="GrpCSAT_HSAM1 = group this; [""hsamag"",this] call f_fnc_assignGear; ";
-					description="OPFOR Heavy SAM Team 1 Spotter";
+					description="OPFOR HSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5389,7 +5389,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitCSAT_HSAM1_G";
 					init="GrpCSAT_HSAM1 = group this; [""hsamg"",this] call f_fnc_assignGear;";
-					description="OPFOR Heavy SAM Team 1 Gunner";
+					description="OPFOR HSAM Team 1 Gunner";
 				};
 			};
 		};
@@ -5617,7 +5617,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_MMG1_AG";
 					init="GrpNATO_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;      ";
-					description="BLUFOR Medium MG Team 1 Spotter";
+					description="BLUFOR MMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5629,7 +5629,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_MMG1_G";
 					init="GrpNATO_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Medium MG Team 1 Gunner";
+					description="BLUFOR MMG Team 1 Gunner";
 				};
 			};
 		};
@@ -5651,7 +5651,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_HMG1_AG";
 					init="GrpNATO_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;      ";
-					description="BLUFOR Heavy MG Team 1 Spotter";
+					description="BLUFOR HMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5663,7 +5663,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_HMG1_G";
 					init="GrpNATO_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Heavy MG Team 1 Gunner";
+					description="BLUFOR HMG Team 1 Gunner";
 				};
 			};
 		};
@@ -5685,7 +5685,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_MAT1_AG";
 					init="GrpNATO_MAT1 = group this; [""matag"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Medium AT Team 1 Spotter";
+					description="BLUFOR MAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5698,7 +5698,7 @@ class Mission
 					health=0.99000001;
 					text="UnitNATO_MAT1_G";
 					init="GrpNATO_MAT1 = group this; [""matg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Medium AT Team 1 Gunner";
+					description="BLUFOR MAT Team 1 Gunner";
 				};
 			};
 		};
@@ -5720,7 +5720,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_HAT1_AG";
 					init="GrpNATO_HAT1 = group this; [""hatag"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Heavy AT Team 1 Spotter";
+					description="BLUFOR HAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5733,7 +5733,7 @@ class Mission
 					health=0.99000001;
 					text="UnitNATO_HAT1_G";
 					init="GrpNATO_HAT1 = group this; [""hatg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Heavy AT Team 1 Gunner";
+					description="BLUFOR HAT Team 1 Gunner";
 				};
 			};
 		};
@@ -5790,7 +5790,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_MSAM1_AG";
 					init="GrpNATO_MSAM1 = group this; [""msamag"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Medium SAM Team 1 Spotter";
+					description="BLUFOR MSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5803,7 +5803,7 @@ class Mission
 					health=0.99000001;
 					text="UnitNATO_MSAM1_G";
 					init="GrpNATO_MSAM1 = group this; [""msamg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Medium SAM Team 1 Gunner";
+					description="BLUFOR MSAM Team 1 Gunner";
 				};
 			};
 		};
@@ -5825,7 +5825,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitNATO_HSAM1_AG";
 					init="GrpNATO_HSAM1 = group this; [""hsamag"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Heavy SAM Team 1 Spotter";
+					description="BLUFOR HSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -5838,7 +5838,7 @@ class Mission
 					health=0.99000001;
 					text="UnitNATO_HSAM1_G";
 					init="GrpNATO_HSAM1 = group this; [""hsamg"",this] call f_fnc_assignGear; ";
-					description="BLUFOR Heavy SAM Team 1 Gunner";
+					description="BLUFOR HSAM Team 1 Gunner";
 				};
 			};
 		};
@@ -6068,7 +6068,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MMG1_AG";
 					init="GrpAAF_MMG1 = group this; [""mmgag"",this] call f_fnc_assignGear;  ";
-					description="INDFOR Medium MG Team 1 Spotter";
+					description="INDFOR MMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6080,7 +6080,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MMG1_G";
 					init="GrpAAF_MMG1 = group this; [""mmgg"",this] call f_fnc_assignGear;  ";
-					description="INDFOR Medium MG Team 1 Gunner";
+					description="INDFOR MMG Team 1 Gunner";
 				};
 			};
 		};
@@ -6103,7 +6103,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HMG1_AG";
 					init="GrpAAF_HMG1 = group this; [""hmgag"",this] call f_fnc_assignGear;  ";
-					description="INDFOR Heavy MG Team 1 Spotter";
+					description="INDFOR HMG Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6115,7 +6115,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HMG1_G";
 					init="GrpAAF_HMG1 = group this; [""hmgg"",this] call f_fnc_assignGear;  ";
-					description="INDFOR Heavy MG Team 1 Gunner";
+					description="INDFOR HMG Team 1 Gunner";
 				};
 			};
 		};
@@ -6137,7 +6137,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MAT1_AG";
 					init="GrpAAF_MAT1 = group this; [""matag"",this] call f_fnc_assignGear; ";
-					description="INDFOR Medium AT Team 1 Spotter";
+					description="INDFOR MAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6149,7 +6149,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MAT1_G";
 					init="GrpAAF_MAT1 = group this; [""matg"",this] call f_fnc_assignGear; ";
-					description="INDFOR Medium AT Team 1 Gunner";
+					description="INDFOR MAT Team 1 Gunner";
 				};
 			};
 		};
@@ -6171,7 +6171,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HAT1_AG";
 					init="GrpAAF_HAT1 = group this; [""hatag"",this] call f_fnc_assignGear; ";
-					description="INDFOR Heavy AT Team 1 Spotter";
+					description="INDFOR HAT Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6183,7 +6183,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HAT1_G";
 					init="GrpAAF_HAT1 = group this; [""hatg"",this] call f_fnc_assignGear; ";
-					description="INDFOR Heavy AT Team 1 Gunner";
+					description="INDFOR HAT Team 1 Gunner";
 				};
 			};
 		};
@@ -6239,7 +6239,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MSAM1_AG";
 					init="GrpAAF_MSAM1 = group this; [""msamag"",this] call f_fnc_assignGear; ";
-					description="INDFOR Medium SAM Team 1 Spotter";
+					description="INDFOR MSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6251,7 +6251,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_MSAM1_G";
 					init="GrpAAF_MSAM1 = group this; [""msamg"",this] call f_fnc_assignGear; ";
-					description="INDFOR Medium SAM Team 1 Gunner";
+					description="INDFOR MSAM Team 1 Gunner";
 				};
 			};
 		};
@@ -6273,7 +6273,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HSAM1_AG";
 					init="GrpAAF_HSAM1 = group this; [""hsamag"",this] call f_fnc_assignGear; ";
-					description="INDFOR Heavy SAM Team 1 Spotter";
+					description="INDFOR HSAM Team 1 Spotter";
 				};
 				class Item1
 				{
@@ -6285,7 +6285,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitAAF_HSAM1_G";
 					init="GrpAAF_HSAM1 = group this; [""hsamg"",this] call f_fnc_assignGear; ";
-					description="INDFOR Heavy SAM Team 1 Gunner";
+					description="INDFOR HSAM Team 1 Gunner";
 				};
 			};
 		};
