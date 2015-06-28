@@ -1,0 +1,278 @@
+// ============================================================================================
+
+// F3 - Mission Header
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 457;
+};
+
+// ============================================================================================
+
+// F3 - Loading Screen
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+onLoadName = "*** Insert mission name here ***";
+onLoadMission = "Made with Gruntwork";
+author = "*** Insert mission author name here ***";
+loadScreen = "loadLogo.jpg";
+
+// ============================================================================================
+
+// F3 - Debug Console
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+enableDebugConsole = 1;
+
+// ============================================================================================
+
+// F3 - Respawn Settings
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+respawn = 1;
+respawndelay = 3;
+respawnOnStart = 0;
+respawnTemplates[] = {"Seagull","f_spectator"};
+
+// ============================================================================================
+
+// F3 - Start of Params code blocks.
+// WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
+
+class Params
+{
+
+// ============================================================================================
+
+// F3 - Debug Mode
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+// WARNING: DO NOT DISABLE THIS COMPONENT
+
+    class f_param_debugMode
+    {
+            title = "$STR_f_param_debugMode";
+            values[] = {0,1};
+            texts[] = {"Off","On"};
+            default = 0;
+            code = "f_var_debugMode = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Folk Assign Gear Script
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_backpacks
+    {
+            title = "$STR_f_param_loadouts";
+            values[] = {0,1,2};
+            texts[] = {"Light","Medium","Heavy"};
+            default = 1;
+            code = "f_param_backpacks = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Radio Systems Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_radios
+    {
+            title = "Radio System";
+            values[] = {0,1};
+            texts[] = {"Off","ACRE2"};
+            default = 1;
+            code = "f_var_radios = %1";
+    };
+
+// ============================================================================================
+
+// F3 - Medical Systems Support
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+    class f_param_medical
+    {
+            title = "Medical System";
+            values[] = {0,1};
+            texts[] = {"Off","ACE3"};
+            default = 1;
+            code = "f_var_medical = %1";
+    };
+
+// ============================================================================================
+
+// F3 - End of Params code blocks.
+// WARNING: DO NOT DELETE OR COMMENT OUT THIS CODE BLOCK
+
+};
+
+// ============================================================================================
+
+// F3 - Briefing Template
+// Credits: BIS - Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End2
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End3
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End4
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End5
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End6
+	{
+		title = "Mission Ended";
+		subtitle = "";
+		description = "The mission has been ended.";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+};
+
+// ============================================================================================
+
+// F3 - Respawn Templates
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+
+class CfgRespawnTemplates
+{
+	// F3 Spectator Script
+	class f_Spectator
+	{
+		onPlayerRespawn = "f_fnc_CamInit";
+	};
+  	//Overwrite Vanilla Seagull
+    class Seagull
+    {
+        onPlayerRespawn = "";
+    };
+};
+
+// ============================================================================================
+
+// F3 - Menu components
+// DO NOT REMOVE OR DISABLE THIS BLOCK OF CODE
+
+// Menu components for the Spectator Script
+#include "f\spect\config.hpp"
+
+// ============================================================================================
+
+// F3 - Functions
+// DO NOT REMOVE OR DISABLE THIS BLOCK OF CODE
+
+class CfgFunctions
+{
+	class F // Defines the "owner"
+	{
+		class common // category
+		{
+			file = "f\common";
+			// Defines the function to preInit (the paramArray dosent seem to be constructed at preInit stage).
+			class processParamsArray
+			{
+				preInit = 1;
+				postInit = 1;
+			};
+
+			class nearPlayer{};
+		};
+		class mpEnd
+		{
+			file = "f\mpEnd";
+			class mpEnd{};
+			class mpEndReceiver{};
+		};
+		class assignGear
+		{
+			// Defines the functions to preInit the compling of the assignGear function used by units.
+			file = "f\assignGear";
+			class assignGear{};
+		};
+		class setGroupID
+		{
+			file = "f\setGroupID";
+			class setGroupID{};
+		};
+		class groupMarkers {
+			file = "f\groupMarkers";
+			class localGroupMarker{};
+			class localSpecialistMarker{};
+		};
+		class FTMemberMarkers
+		{
+			file = "f\FTMemberMarkers";
+			class SetLocalFTMemberMarkers{};
+			class GetMarkerColor{};
+			class LocalFTMarkerSync{};
+		};
+		class zeus
+		{
+			file = "f\zeus";
+			class zeusInit{};
+			class zeusAddAddons{};
+			class zeusAddObjects{};
+		};
+		class acre
+		{
+			file = "f\radios\acre";
+			class acre_removeRadios{};
+			class acre_addRadios{};
+			class acre_setRadioFrequencies{};
+			class acre_configureSpectatorChat{};
+		};
+		#include "f\spect\functions.hpp"
+
+	};
+};
+
+// ============================================================================================
