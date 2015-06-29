@@ -14,9 +14,9 @@ _customText = "";
 
 _briefing ="
 <br/>
-<font size='18'>ADMIN SECTION</font><br/>
+<font size='18'>ADMIN SECTION</font>
+<br/>
 *** Insert information you would like only the admin to see here. ***
-<br/><br/>
 ";
 
 // ====================================================================================
