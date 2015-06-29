@@ -18,7 +18,7 @@ f_radios_settings_acre2_disableFrequencySplit = FALSE;
 f_radios_settings_acre2_shortRange = ["ftl","ar","aar","rat","dm","gren","r","car","smg","eng","engm"];
 
 // Set the list of units that get a long range
-f_radios_settings_acre2_longRange = ["co", "dc","ftl","m", "mmgag","hmgag","matag","hatag", "mtrag","msamag","sp","vc", "pp", "uav", "fo", "div"];
+f_radios_settings_acre2_longRange = ["co", "dc","ftl","m", "mmgag","hmgag","matag","hatag", "mtrag","msamag","sp","vc", "pp", "fwp", "uav", "fo", "div"];
 
 // Unit types you want to give an extra long-range radio
 // E.G: ["co", "m"] would give the CO and all medics an extra long-range radios
