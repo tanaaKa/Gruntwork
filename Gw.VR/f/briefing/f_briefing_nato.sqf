@@ -47,7 +47,7 @@ Channel 5 - Echo Fireteam Leaders
 <br/> 
 Channel 6 - Foxtrot Fireteam Leaders
 <br/><br/>
-<font size='18'>INTRA-SUPPORT CHANNELS (343)</font>
+<font size='18'>INTER-SUPPORT CHANNELS (343)</font>
 <br/>
 Channels 10 to 19 - Infantry Support
 <br/>

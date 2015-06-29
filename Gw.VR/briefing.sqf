@@ -94,19 +94,6 @@ if (_unitfaction == "civ_f") exitwith {
 	};
 };
 
-// BRIEFING: ZEUS
-
-if (_unitfaction == "") exitwith {
-
-#include "f\briefing\f_briefing_zeus.sqf"
-
-// DEBUG
-	if (f_var_debugMode == 1) then
-	{
-	player sideChat format ["DEBUG (briefing.sqf): Briefing for %1 slot selected.",_unitfaction];
-	};
-};
-
 // ERROR CHECKING
 
 player globalchat format ["DEBUG (briefing.sqf): Faction %1 is not defined.",_unitfaction];
