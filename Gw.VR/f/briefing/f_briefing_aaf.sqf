@@ -78,7 +78,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/><br/>
 <font size='18'>SPECIAL TASKS</font>
 <br/>
-*** Insert instructions - specific units here. ***
+*** Insert instructions for specific units here. ***
 "]];
 
 // ====================================================================================
@@ -98,15 +98,15 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general in-mation about the situation here.***
+*** Insert general information about the situation here.***
 <br/><br/>
-<font size='18'>ENEMY -CES</font>
+<font size='18'>ENEMY FORCES</font>
 <br/>
-*** Insert in-mation about enemy -ces here.***
+*** Insert information about enemy forces here.***
 <br/><br/>
-<font size='18'>FRIENDLY -CES</font>
+<font size='18'>FRIENDLY FORCES</font>
 <br/>
-*** Insert in-mation about friendly -ces here.***
+*** Insert information about friendly forces here.***
 "]];
 
 // ====================================================================================
