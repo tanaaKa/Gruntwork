@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - Russian Army (Summer)
+// F3 - Folk ARPS Assign Gear Script - Russian Army (Flora)
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -230,14 +230,14 @@ _ghillie = ["sn","sp"];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
-_baseUniform = ["rhs_uniform_emr_patchless"];
-_baseHelmet = ["rhs_6b27m_digi","rhs_6b27m_digi_ess"];
+_baseUniform = ["rhs_uniform_flora_patchless"];
+_baseHelmet = ["rhs_6b27m","rhs_6b27m_ess"];
 _baseGlasses = [];
 
 // Vests
-_lightRig = ["rhs_6b23_digi_rifleman"];
-_mediumRig = ["rhs_6b23_digi_6sh92"]; 	// default for all infantry classes
-_heavyRig = ["rhs_6b13_EMR"];
+_lightRig = ["rhs_6b23_rifleman"];
+_mediumRig = ["rhs_6b23_6sh92"]; 	// default for all infantry classes
+_heavyRig = ["rhs_6b13_Flora_6sh92"];
 
 // Diver
 _diverUniform =  ["U_O_Wetsuit"];
@@ -246,9 +246,9 @@ _diverRig = ["V_RebreatherIR"];
 _diverGlasses = ["G_O_Diving"];
 
 // Pilot
-_pilotUniform = ["rhs_uniform_emr_patchless"];
+_pilotUniform = ["rhs_uniform_flora_patchless"];
 _pilotHelmet = ["rhs_zsh7a_mike"];
-_pilotRig = ["rhs_6sh92_digi"];
+_pilotRig = ["rhs_6sh92"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
@@ -258,15 +258,15 @@ _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["rhs_uniform_emr_patchless"];
+_crewUniform = ["rhs_uniform_flora_patchless"];
 _crewHelmet = ["rhs_tsh4","rhs_tsh4_ess"];
-_crewRig = ["rhs_6b23_digi_crew"];
+_crewRig = ["rhs_6b23_crew"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["rhs_uniform_emr_patchless"];
-_ghillieHelmet = ["rhs_fieldcap_digi"];
-_ghillieRig = ["rhs_6b23_digi_sniper"];
+_ghillieUniform = ["rhs_uniform_flora_patchless"];
+_ghillieHelmet = ["rhs_fieldcap"];
+_ghillieRig = ["rhs_6b23_sniper"];
 _ghillieGlasses = [];
 
 // ====================================================================================
@@ -324,7 +324,7 @@ _backpack = {
 	if (count _this > 1) then {_loadout = _this select 1};
 	switch (_typeofBackPack) do
 	{
-		#include "f_assignGear_csat_b.sqf";
+		#include "f_assignGear_opfor_b.sqf";
 	};
 };
 

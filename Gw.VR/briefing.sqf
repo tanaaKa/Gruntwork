@@ -42,11 +42,11 @@ if (serverCommandAvailable "#kick") then {
 	};
 };
 
-// BRIEFING: BLUFOR > NATO
+// BRIEFING: BLUFOR
 
 if (_unitfaction == "blu_f") exitwith {
 
-#include "f\briefing\f_briefing_nato.sqf"
+#include "f\briefing\f_briefing_blufor.sqf"
 
 // DEBUG
 	if (f_var_debugMode == 1) then
@@ -55,11 +55,11 @@ if (_unitfaction == "blu_f") exitwith {
 	};
 };
 
-// BRIEFING: OPFOR > CSAT
+// BRIEFING: OPFOR
 
 if (_unitfaction == "opf_f") exitwith {
 
-#include "f\briefing\f_briefing_csat.sqf"
+#include "f\briefing\f_briefing_opfor.sqf"
 
 // DEBUG
 	if (f_var_debugMode == 1) then
@@ -68,11 +68,11 @@ if (_unitfaction == "opf_f") exitwith {
 	};
 };
 
-// BRIEFING: INDEPENDENT > AAF
+// BRIEFING: INDEPENDENT
 
 if (_unitfaction == "ind_f") exitwith {
 
-#include "f\briefing\f_briefing_aaf.sqf"
+#include "f\briefing\f_briefing_indfor.sqf"
 
 // DEBUG
 	if (f_var_debugMode == 1) then
