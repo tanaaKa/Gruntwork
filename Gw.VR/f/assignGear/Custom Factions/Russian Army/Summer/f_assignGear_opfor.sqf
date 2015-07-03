@@ -231,7 +231,7 @@ _ghillie = ["sn","sp"];
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
 _baseUniform = ["rhs_uniform_emr_patchless"];
-_baseHelmet = ["rhs_6b27m_digi","rhs_6b27m_digi_ess"];
+_baseHelmet = ["rhs_6b27m_digi"];
 _baseGlasses = [];
 
 // Vests
