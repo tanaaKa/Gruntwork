@@ -107,7 +107,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					text="UnitBLUFOR_PL";
+					text="UnitBLUFOR_CO";
 					init="GrpBLUFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
 					description="BLUFOR Commander";
 				};
@@ -133,7 +133,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="UnitBLUFOR_PSG";
+					text="UnitBLUFOR_DC";
 					init="GrpBLUFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
 					description="BLUFOR Deputy Commander";
 				};
@@ -796,7 +796,7 @@ class Mission
 					lock="UNLOCKED";
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					text="UnitOPFOR_PL";
+					text="UnitOPFOR_CO";
 					init="GrpOPFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
 					description="OPFOR Commander";
 				};
@@ -822,7 +822,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="UnitOPFOR_PSG";
+					text="UnitOPFOR_DC";
 					init="GrpOPFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
 					description="OPFOR Deputy Commander";
 				};
@@ -1648,7 +1648,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					text="UnitINDFOR_PL";
+					text="UnitINDFOR_CO";
 					init="GrpINDFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
 					description="INDFOR Commander";
 				};
@@ -1673,7 +1673,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
-					text="UnitINDFOR_PSG";
+					text="UnitINDFOR_DC";
 					init="GrpINDFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
 					description="INDFOR Deputy Commander";
 				};
