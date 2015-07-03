@@ -11,7 +11,7 @@ _groups = [
 // GROUP IDs: BLUFOR
 // Automatically assigns intelligible names to groups
 
-["GrpBLUFOR_PLTHQ","BLUFOR PLT. HQ -"],
+["GrpBLUFOR_CO","BLUFOR CO -"],
 
 ["GrpBLUFOR_ASL","BLUFOR ASL -"],
 ["GrpBLUFOR_A1","BLUFOR A1 -"],
@@ -65,7 +65,7 @@ _groups = [
 // GROUP IDs: OPFOR
 // Automatically assigns intelligible names to groups
 
-["GrpOPFOR_PLTHQ","OPFOR PLT. HQ -"],
+["GrpOPFOR_CO","OPFOR CO -"],
 
 ["GrpOPFOR_ASL","OPFOR ASL -"],
 ["GrpOPFOR_A1","OPFOR A1 -"],
@@ -119,7 +119,7 @@ _groups = [
 // GROUP IDs: INDEPENDENT
 // Automatically assigns intelligible names to groups
 
-["GrpINDFOR_PLTHQ","INDFOR PLT. HQ -"],
+["GrpINDFOR_CO","INDFOR CO -"],
 
 ["GrpINDFOR_ASL","INDFOR ASL -"],
 ["GrpINDFOR_A1","INDFOR A1 -"],

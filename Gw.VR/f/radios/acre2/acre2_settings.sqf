@@ -47,11 +47,11 @@ f_radios_settings_acre2_language_indfor = ["arabic"];
 // Channels names
 // first item in the array will correspond to the first channel
 // note these only work if f_radios_settings_acre2_disableFrequencySplit is set to false
-f_radios_settings_acre2_groups_blufor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Delta Squad Net","Echo Squad Net","Foxtrot Squad Net","Blank Net","Blank Net","Air 1","Air 2","Air 3","Air 4","Air 5","Air 6","Air 7","Air 8","Air 9","Air 10","Armor 1","Armor 2","Armor 3","Armor 4","Armor 5","Armor 6","Armor 7","Armor 8","Armor 9","Attachment 1","Attachment 2","Attachment 3","Attachment 4","Attachment 5","Attachment 6","Attachment 7","Attachment 8","Attachment 9","Attachment 10"];
+f_radios_settings_acre2_groups_blufor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Air Net","Armor Net"];
 
-f_radios_settings_acre2_groups_opfor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Delta Squad Net","Echo Squad Net","Foxtrot Squad Net","Blank Net","Blank Net","Air 1","Air 2","Air 3","Air 4","Air 5","Air 6","Air 7","Air 8","Air 9","Air 10","Armor 1","Armor 2","Armor 3","Armor 4","Armor 5","Armor 6","Armor 7","Armor 8","Armor 9","Attachment 1","Attachment 2","Attachment 3","Attachment 4","Attachment 5","Attachment 6","Attachment 7","Attachment 8","Attachment 9","Attachment 10"];
+f_radios_settings_acre2_groups_opfor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Air Net","Armor Net"];
 
-f_radios_settings_acre2_groups_indfor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Delta Squad Net","Echo Squad Net","Foxtrot Squad Net","Blank Net","Blank Net","Air 1","Air 2","Air 3","Air 4","Air 5","Air 6","Air 7","Air 8","Air 9","Air 10","Armor 1","Armor 2","Armor 3","Armor 4","Armor 5","Armor 6","Armor 7","Armor 8","Armor 9","Attachment 1","Attachment 2","Attachment 3","Attachment 4","Attachment 5","Attachment 6","Attachment 7","Attachment 8","Attachment 9","Attachment 10"];
+f_radios_settings_acre2_groups_indfor = ["Alpha Squad Net","Bravo Squad Net","Charlie Squad Net","Command Net","Air Net","Armor Net"];
 
 // ====================================================================================
 // MISC ACRE2 settings, these are all set the ACRE2 defaults

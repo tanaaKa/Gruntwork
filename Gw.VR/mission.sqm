@@ -108,8 +108,8 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="UnitBLUFOR_PL";
-					init="GrpBLUFOR_PLTHQ = group this; [""co"",this] call f_fnc_assignGear;";
-					description="BLUFOR Platoon Leader";
+					init="GrpBLUFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					description="BLUFOR Commander";
 				};
 				class Item1
 				{
@@ -120,9 +120,9 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitBLUFOR_PLTHQ_M";
-					init="GrpBLUFOR_PLTHQ = group this; [""m"",this] call f_fnc_assignGear;";
-					description="BLUFOR Platoon HQ Medic";
+					text="UnitBLUFOR_CO_M";
+					init="GrpBLUFOR_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					description="BLUFOR Medic";
 				};
 				class Item2
 				{
@@ -134,8 +134,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitBLUFOR_PSG";
-					init="GrpBLUFOR_PLTHQ = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="BLUFOR Platoon Sergeant";
+					init="GrpBLUFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="BLUFOR Deputy Commander";
 				};
 				class Item3
 				{
@@ -146,8 +146,8 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitBLUFOR_PLTHQ_FO";
-					init="GrpBLUFOR_PLTHQ = group this; [""fo"",this] call f_fnc_assignGear;";
+					text="UnitBLUFOR_CO_FO";
+					init="GrpBLUFOR_CO = group this; [""fo"",this] call f_fnc_assignGear;";
 					description="BLUFOR Forward Observer";
 				};
 			};
@@ -797,8 +797,8 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="UnitOPFOR_PL";
-					init="GrpOPFOR_PLTHQ = group this; [""co"",this] call f_fnc_assignGear;";
-					description="OPFOR Platoon Leader";
+					init="GrpOPFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					description="OPFOR Commander";
 				};
 				class Item1
 				{
@@ -809,9 +809,9 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitOPFOR_PLTHQ_M";
-					init="GrpOPFOR_PLTHQ = group this; [""m"",this] call f_fnc_assignGear;";
-					description="OPFOR Platoon HQ Medic";
+					text="UnitOPFOR_CO_M";
+					init="GrpOPFOR_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					description="OPFOR Medic";
 				};
 				class Item2
 				{
@@ -823,8 +823,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitOPFOR_PSG";
-					init="GrpOPFOR_PLTHQ = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="OPFOR Platoon Sergeant";
+					init="GrpOPFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="OPFOR Deputy Commander";
 				};
 				class Item3
 				{
@@ -835,8 +835,8 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitOPFOR_PLTHQ_FO";
-					init="GrpOPFOR_PLTHQ = group this; [""fo"",this] call f_fnc_assignGear;";
+					text="UnitOPFOR_CO_FO";
+					init="GrpOPFOR_CO = group this; [""fo"",this] call f_fnc_assignGear;";
 					description="INDFOR Forward Observer";
 				};
 			};
@@ -1649,8 +1649,8 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="UnitINDFOR_PL";
-					init="GrpINDFOR_PLTHQ = group this; [""co"",this] call f_fnc_assignGear;";
-					description="INDFOR Platoon Leader";
+					init="GrpINDFOR_CO = group this; [""co"",this] call f_fnc_assignGear;";
+					description="INDFOR Commander";
 				};
 				class Item1
 				{
@@ -1660,9 +1660,9 @@ class Mission
 					vehicle="I_medic_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					text="UnitINDFOR_PLTHQ_M";
-					init="GrpINDFOR_PLTHQ = group this; [""m"",this] call f_fnc_assignGear;";
-					description="INDFOR Platoon HQ Medic";
+					text="UnitINDFOR_CO_M";
+					init="GrpINDFOR_CO = group this; [""m"",this] call f_fnc_assignGear;";
+					description="INDFOR Medic";
 				};
 				class Item2
 				{
@@ -1674,8 +1674,8 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="UnitINDFOR_PSG";
-					init="GrpINDFOR_PLTHQ = group this; [""dc"",this] call f_fnc_assignGear;";
-					description="INDFOR Platoon Sergeant";
+					init="GrpINDFOR_CO = group this; [""dc"",this] call f_fnc_assignGear;";
+					description="INDFOR Deputy Commander";
 				};
 				class Item3
 				{
@@ -1686,8 +1686,8 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					text="UnitINDFOR_PLTHQ_FO";
-					init="GrpINDFOR_PLTHQ = group this; [""fo"",this] call f_fnc_assignGear;";
+					text="UnitINDFOR_CO_FO";
+					init="GrpINDFOR_CO = group this; [""fo"",this] call f_fnc_assignGear;";
 					description="INDFOR Forward Observer";
 				};
 			};

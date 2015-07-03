@@ -6,8 +6,8 @@
 // The blocks of code below identifies equipment for this faction
 //
 // Defined loadouts:
-//		co			- platoon leader
-//		dc 			- squad leader / platoon sergeant
+//		co			- commander
+//		dc 			- squad leader / deputy commander
 //		m 			- medic
 //		ftl			- fire team leader
 //		ar 			- automatic rifleman
@@ -338,7 +338,7 @@ switch (_typeofUnit) do
 
 // ====================================================================================
 
-// LOADOUT: PLATOON LEADER
+// LOADOUT: COMMANDER
 	case "co":
 	{
 		_unit addmagazines [_riflemag,7];
@@ -356,7 +356,7 @@ switch (_typeofUnit) do
 		_attachments = [_attach1,_scope2];
 	};
 
-// LOADOUT: SQUAD LEADER & PLATOON SERGEANT
+// LOADOUT: SQUAD LEADER & DEPUTY COMMANDER
 	case "dc":
 	{
 		_unit addmagazines [_glriflemag,7];
