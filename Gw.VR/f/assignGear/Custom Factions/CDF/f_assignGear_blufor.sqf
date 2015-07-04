@@ -102,8 +102,7 @@ _smgmag_tr = "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
 
 // Diver
 _diverWep = "arifle_SDAR_F";
-_diverMag1 = "20Rnd_556x45_UW_mag";
-_diverMag2 = "20Rnd_556x45_UW_mag";
+_diverMag = "20Rnd_556x45_UW_mag";
 
 // Rifle with GL and HE grenades (CO, SL, FTLs)
 _glrifle = "rhs_weap_akm_gp25";
@@ -361,8 +360,6 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,3];
-		_unit addmagazines [_glsmokewhite,4];
 		_unit addweapon _glrifle;					//_DCrifle
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
@@ -393,8 +390,6 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,3];
-		_unit addmagazines [_glsmokewhite,4];
 		_unit addweapon _glrifle;					//_FTLrifle
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -451,9 +446,8 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER
 	case "mmgg":
 	{
-		_unit addmagazines [_MMGmag,1];
-		_unit addweapon _MMG;
 		_unit addmagazines [_MMGmag,2];
+		_unit addweapon _MMG;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,2];
@@ -631,18 +625,6 @@ switch (_typeofUnit) do
 // LOADOUT: SNIPER
 	case "sn":
 	{
-		_unit addmagazines [_SNrifleMag,9];
-		_unit addweapon _SNrifle;
-		_unit addmagazines [_pistolmag,2];
-		_unit addweapon _pistol;
-		_unit addmagazines [_grenade,1];
-		_unit addmagazines [_smokegrenade,2];
-		_attachments = [_scope4,_bipod1];
-	};
-
-// LOADOUT: SNIPER
-	case "sn":
-	{
 		_unit addmagazines [_SNrifleMag,7];
 		_unit addweapon _SNrifle;
 		_unit addmagazines [_pistolmag,2];
@@ -663,6 +645,18 @@ switch (_typeofUnit) do
 		_unit addWeapon "ACE_Vector";
 		_unit linkItem "ItemGPS";
 		_attachments = [_attach1,_scope2];
+	};
+
+// LOADOUT: VEHICLE COMMANDER
+	case "vc":
+	{
+		_unit addmagazines [_smgmag,5];
+		_unit addweapon _smg;
+		_unit addmagazines [_smokegrenade,2];
+		_unit addItem "ItemGPS";
+		_unit assignItem "ItemGPS";
+		_unit addWeapon "ACE_Vector";
+		_attachments = [];
 	};
 
 // LOADOUT: VEHICLE DRIVER
@@ -736,7 +730,6 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_satchel,2];
 		_unit addItem "MineDetector";
 		__unit addItem _defusalkit;
 		_unit addItem _clacker;
@@ -751,7 +744,6 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_APmine,2];
 		_unit addItem "MineDetector";
 		__unit addItem _defusalkit;
 		_unit addItem _clacker;
@@ -780,7 +772,7 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addWeapon "Laserdesignator_03";
+		_unit addWeapon "Laserdesignator";
 		_unit linkItem "ItemGPS";
 		_unit addItem _maptools;
 		["car"] call _backpack;
@@ -790,8 +782,7 @@ switch (_typeofUnit) do
 // LOADOUT: Diver
 	case "div":
 	{
-		_unit addmagazines [_diverMag1,4];
-		_unit addmagazines [_diverMag2,3];
+		_unit addmagazines [_diverMag,7];
 		_unit addweapon _diverWep;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -838,8 +829,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
 		_unit addweapon _glrifle;
-		_unit addmagazines [_glmag,3];
-		_unit addmagazines [_glsmokewhite,2];
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		["g"] call _backpack;
