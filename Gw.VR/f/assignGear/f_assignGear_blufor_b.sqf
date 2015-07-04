@@ -22,7 +22,7 @@ case "m":
 	};
 };
 
-// BACKPACK: GRENADIER (CO/DC/SL/FTL/G)
+// BACKPACK: GRENADIER (DC/SL/FTL/G)
 case "g":
 {
 	// LOADOUT: LIGHT

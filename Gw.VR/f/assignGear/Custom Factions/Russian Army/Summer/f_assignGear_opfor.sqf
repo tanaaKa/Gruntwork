@@ -265,9 +265,9 @@ _crewGlasses = [];
 
 // Ghillie
 _ghillieUniform = ["rhs_uniform_emr_patchless"];
-_ghillieHelmet = ["rhs_fieldcap_digi"];
-_ghillieRig = ["rhs_6b23_digi_sniper"];
-_ghillieGlasses = [];
+_ghillieHelmet = [];
+_ghillieRig = ["rhs_6b23_digi_6sh92_Spetsnaz"];
+_ghillieGlasses = ["rhs_balaclava"];
 
 // ====================================================================================
 
@@ -632,23 +632,21 @@ switch (_typeofUnit) do
 // LOADOUT: SNIPER
 	case "sn":
 	{
-		_unit addmagazines [_SNrifleMag,9];
+		_unit addmagazines [_SNrifleMag,7];
 		_unit addweapon _SNrifle;
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_attachments = [_scope4,_bipod1];
+		_attachments = [_scope4,_bipod3];
 	};
 
 // LOADOUT: SPOTTER
 	case "sp":
 	{
-		_unit addmagazines [_glriflemag,7];
-		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,2];
-		_unit addmagazines [_glsmokewhite,2];
-		_unit addweapon _glrifle;					//_COrifle
+		_unit addmagazines [_riflemag,7];
+		_unit addmagazines [_riflemag_tr,2];
+		_unit addweapon _rifle;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "ACE_Vector";
