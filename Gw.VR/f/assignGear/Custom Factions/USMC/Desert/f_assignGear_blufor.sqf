@@ -200,7 +200,7 @@ _HATmag1 = "rhs_fgm148_magazine_AT";
 _HATmag2 = "rhs_fgm148_magazine_AT";
 
 // Marksman Rifle
-_DMrifle = "rhs_weap_sr25_ec";
+_DMrifle = "rhs_weap_m14ebrri";
 _DMriflemag = "rhsusf_20Rnd_762x51_m118_special_Mag";
 
 // Sniper
