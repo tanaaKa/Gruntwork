@@ -230,7 +230,7 @@ _ghillie = ["sn","sp"];
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
 _baseUniform = ["LOP_U_CDF_Fatigue_01"];
-_baseHelmet = ["LOP_H_6B27M_CDF","LOP_H_6B27M_ess_CDF"];
+_baseHelmet = ["LOP_H_6B27M_CDF"];
 _baseGlasses = [];
 
 // Vests
