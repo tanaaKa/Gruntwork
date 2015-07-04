@@ -62,7 +62,7 @@
 _attach1 = "";					// IR Laser
 _attach2 = "";					// Flashlight
 
-_silencer1 = "";				// Primary
+_silencer1 = "rhs_acc_pbs1";	// Primary
 
 _scope1 = "";					// Short Range
 _scope2 = "";					// Medium Range

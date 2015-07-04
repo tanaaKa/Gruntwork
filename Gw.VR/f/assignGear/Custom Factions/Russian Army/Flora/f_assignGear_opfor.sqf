@@ -236,8 +236,8 @@ _baseGlasses = [];
 
 // Vests
 _lightRig = ["rhs_6b23_rifleman"];
-_mediumRig = ["rhs_6b23_6sh92"]; 	// default for all infantry classes
-_heavyRig = ["rhs_6b13_Flora_6sh92"];
+_mediumRig = ["rhs_6b23_6sh92_radio"]; 	// default for all infantry classes
+_heavyRig = ["rhs_6b13_Flora_6sh92_radio"];
 
 // Diver
 _diverUniform =  ["U_O_Wetsuit"];

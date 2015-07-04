@@ -62,7 +62,7 @@
 _attach1 = "";					// IR Laser
 _attach2 = "";					// Flashlight
 
-_silencer1 = "";				// Primary
+_silencer1 = "rhs_acc_pbs1";	// Primary
 
 _scope1 = "";					// Short Range
 _scope2 = "";					// Medium Range
@@ -147,8 +147,8 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "CUP_B_ACRScout_m95";			// small
-_bagmedium = "CUP_B_CivPack_WDL";			// medium
+_bagsmall = "CUP_B_CivPack_WDL";			// small
+_bagmedium = "CUP_B_AlicePack_Khaki";		// medium
 _baglarge =  "CUP_B_ACRPara_m95"; 			// large
 _bagmediumdiver =  "B_AssaultPack_blk";		// used by divers
 _baguav = "O_UAV_01_backpack_F";			// used by UAV operator
@@ -182,8 +182,8 @@ _MMGmag = "rhs_100Rnd_762x54mmR";
 _MMGmag_tr = "rhs_100Rnd_762x54mmR_green";
 
 // Rifleman AT
-_RAT = "rhs_weap_rpg26";
-_RATmag = "rhs_rpg26_mag";
+_RAT = "rhs_weap_rshg2";
+_RATmag = "rhs_rshg2_mag";
 
 // Medium AT
 _MAT = "rhs_weap_rpg7";
