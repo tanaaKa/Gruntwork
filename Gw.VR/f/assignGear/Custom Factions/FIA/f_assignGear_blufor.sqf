@@ -410,13 +410,15 @@ switch (_typeofUnit) do
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,2];
+		_unit addmagazines [_ARmag,3];
+		_unit addmagazines [_ARmag_tr,1];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
 		_unit addItem _sparebarrel;
+		["ar"] call _backpack;
 		_attachments = [_attach1,_bipod1];
 	};
 
