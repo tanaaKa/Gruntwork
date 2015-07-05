@@ -29,31 +29,23 @@ _adm = player createDiaryRecord ["diary", ["Administration","
 
 _radio = player createDiaryRecord ["diary", ["Radios","
 <br/>
-<font size='18'>PLATOON CHANNELS (152 - 117F)</font>
+<font size='18'>PLATOON CHANNELS</font>
 <br/>
-Channel 1 - PLT. HQ, Squad Leaders, Support
+Channel 4 - Command, Squad Leaders, Support
 <br/><br/>
-<font size='18'>SQUAD CHANNELS (152)</font>
+<font size='18'>SQUAD CHANNELS</font>
 <br/>
 Channel 1 - Alpha Fireteam Leaders
 <br/>
 Channel 2 - Bravo Fireteam Leaders
 <br/> 
 Channel 3 - Charlie Fireteam Leaders
-<br/>
-Channel 4 - Delta Fireteam Leaders
-<br/>
-Channel 5 - Echo Fireteam Leaders
-<br/> 
-Channel 6 - Foxtrot Fireteam Leaders
 <br/><br/>
-<font size='18'>INTER-SUPPORT CHANNELS (343)</font>
+<font size='18'>SUPPORT CHANNELS</font>
+<br/><br/>
+Channels 5 - Armor Support
 <br/>
-Channels 10 to 19 - Infantry Support
-<br/>
-Channels 20 to 29 - Armor Support
-<br/>
-Channels 30 to 39 - Air Support
+Channels 6 - Air Support
 <br/>
 "]];
 

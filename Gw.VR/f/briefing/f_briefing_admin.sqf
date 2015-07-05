@@ -23,6 +23,6 @@ _briefing ="
 
 // CREATE DIARY ENTRY
 
-player createDiaryRecord ["diary", ["F3 Admin Menu",_briefing]];
+player createDiaryRecord ["diary", ["Admin",_briefing]];
 
 // ====================================================================================
