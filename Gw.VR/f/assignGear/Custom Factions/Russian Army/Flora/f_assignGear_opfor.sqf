@@ -127,8 +127,8 @@ _pistolmag = "rhs_mag_9x18_12_57N181S";
 
 // Grenades
 _grenade = "rhs_mag_rgd5";
-_smokegrenade = "rhs_mag_rdg2_white";
-_smokegrenadegreen = "rhs_mag_rdg2_black";
+_smokegrenade = "SmokeShell";
+_smokegrenadegreen = "SmokeShellGreen";
 
 // Misc. Medical Items
 _firstaid = "FirstAidKit";
