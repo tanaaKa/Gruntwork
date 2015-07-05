@@ -108,26 +108,26 @@ _diverMag = "20Rnd_556x45_UW_mag";
 _glrifle = "rhs_weap_m16a4_carryhandle_M203";
 _glriflemag = "30Rnd_556x45_Stanag";
 _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
-_glmag = "rhs_mag_M433_HEDP";
+_glmag = "1Rnd_HE_Grenade_shell";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glsmokewhite = "rhs_mag_m714_White";
-_glsmokegreen = "rhs_mag_m715_Green";
-_glsmokered = "rhs_mag_m713_Red";
+_glsmokewhite = "1Rnd_Smoke_Grenade_shell";
+_glsmokegreen = "1Rnd_SmokeGreen_Grenade_shell";
+_glsmokered = "1Rnd_SmokeRed_Grenade_shell";
 
 // Flares for FTLs, Squad Leaders, etc
-_glflarewhite = "rhs_mag_M585_white";
-_glflarered = "rhs_mag_m662_red";
-_glflaregreen = "rhs_mag_m661_green";
+_glflarewhite = "UGL_FlareWhite_F";
+_glflarered = "UGL_FlareRed_F";
+_glflaregreen = "UGL_FlareGreen_F";
 
 // Pistols (CO, SL, Automatic Rifleman, Medium MG Gunner)
 _pistol = "rhsusf_weap_m1911a1";
 _pistolmag = "rhsusf_mag_7x45acp_MHP";
 
 // Grenades
-_grenade = "rhs_mag_m67";
-_smokegrenade = "rhs_mag_an_m8hc";
-_smokegrenadegreen = "rhs_mag_m18_green";
+_grenade = "HandGrenade";
+_smokegrenade = "SmokeShell";
+_smokegrenadegreen = "SmokeShellGreen";
 
 // Misc. Medical Items
 _firstaid = "FirstAidKit";
