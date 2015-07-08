@@ -210,7 +210,7 @@ _baseGlasses = [];
 // Pilot
 _pilotUniform = ["rhs_uniform_cu_ocp"];
 _pilotHelmet = ["H_PilotHelmetHeli_B"];
-_pilotRig = ["rhsusf_iotv_ocp"];
+_pilotRig = ["rhsusf_iotv_ocp_Teamleader"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
