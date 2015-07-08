@@ -17,20 +17,10 @@ removeVest _unit;
 // Assign default clothes
 _uniform = _baseUniform;
 _helmet = _baseHelmet;
-_rig = _mediumRig;
+_rig = _baseVest;
 _glasses = _baseGlasses;
 
 // Flip through unit to assign specialized uniforms
-
-// Light
-if (_typeOfUnit in _light) then {
-	_rig = _lightRig;
-};
-
-// Heavy
-if (_typeOfUnit in _heavy) then {
-	_rig = _heavyRig;
-};
 
 // Pilot
 if (_typeOfUnit in _pilot) then {
@@ -62,14 +52,6 @@ if (_typeOfUnit in _ghillie) then {
 	_uniform = _ghillieUniform;
 	_rig = _ghillieRig;
 	_glasses = _ghillieGlasses;
-};
-
-// Spec Op
-if (_typeOfUnit in _specOp) then {
-	_helmet = _sfHelmet;
-	_uniform = _sfUniform;
-	_rig = _sfRig;
-	_glasses = _sfGlasses;
 };
 
 // Add clothing items to unit

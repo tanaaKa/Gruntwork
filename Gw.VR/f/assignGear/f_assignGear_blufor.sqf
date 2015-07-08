@@ -64,7 +64,8 @@ _scope4 = "optic_KHS_tan";		// Long Range
 
 _bipod1 = "bipod_01_F_snd";		// Light Machine Gun
 _bipod2 = "bipod_01_F_snd";		// Medium Machine Gun
-_bipod3 = "bipod_01_F_snd";		// Sniper
+_bipod3 = "bipod_01_F_snd";		// Marksman
+_bipod4 = "bipod_01_F_snd";		// Sniper
 
 // Default setup
 _attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
@@ -83,15 +84,15 @@ _carbine = "arifle_MXC_F";
 _carbinemag = "30Rnd_65x39_caseless_mag";
 _carbinemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
 
-// Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
-
 // Rifle with GL and HE grenades (CO, SL, FTLs)
 _glrifle = "arifle_MX_GL_F";
 _glriflemag = "30Rnd_65x39_caseless_mag";
 _glriflemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
 _glmag = "1Rnd_HE_Grenade_shell";
+
+// Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
+_smg = "SMG_01_F";
+_smgmag = "30Rnd_45ACP_Mag_SMG_01";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "1Rnd_Smoke_Grenade_shell";
@@ -173,8 +174,7 @@ _SAMmag = "Titan_AA";
 
 // Heavy AT
 _HAT = "launch_B_Titan_short_F";
-_HATmag1 = "Titan_AT";
-_HATmag2 = "Titan_AP";
+_HATmag = "Titan_AT";
 
 // Marksman Rifle
 _DMrifle = "srifle_DMR_03_tan_F";
@@ -194,25 +194,18 @@ _APmine = "ClaymoreDirectionalMine_Remote_Mag";
 // CLOTHES AND UNIFORMS
 
 // Define classes. This defines which gear class gets which uniform
-// "medium" vests are used for all classes if they are not assigned a specific uniform
+// The outfit-piece is randomly selected from the array for each unit
 
-_light = [];
-_heavy =  ["eng","engm"];
 _pilot = ["pp","pc"];
 _fwpilot = ["fwp"];
 _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
-// Basic clothing
-// The outfit-piece is randomly selected from the array for each unit
+// Infantry
 _baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest"];
 _baseHelmet = ["H_HelmetB","H_HelmetSpecB"];
+_baseVest = ["V_PlateCarrier1_rgr","V_PlateCarrier2_rgr"];
 _baseGlasses = [];
-
-// Vests
-_lightRig = ["V_Chestrig_rgr"];
-_mediumRig = ["V_PlateCarrier1_rgr","V_PlateCarrier2_rgr"]; 	// default for all infantry classes
-_heavyRig = ["V_PlateCarrierGL_rgr"];
 
 // Pilot
 _pilotUniform = ["U_B_HeliPilotCoveralls"];
@@ -576,7 +569,7 @@ switch (_typeofUnit) do
 		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_attachments = [_scope4,_bipod3];
+		_attachments = [_scope4,_bipod4];
 	};
 
 // LOADOUT: SPOTTER
@@ -756,7 +749,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
-		_attachments = [_attach1,_scope3];
+		_attachments = [_attach1,_scope3,_bipod3];
 	};
 
 // CARGO: CAR - room for 10 weapons and 50 cargo items
