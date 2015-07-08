@@ -56,14 +56,6 @@ if (_typeOfUnit in _crew) then {
 	_glasses = _crewGlasses;
 };
 
-// Diver
-if (_typeOfUnit in _diver) then {
-	_helmet = _diverHelmet;
-	_uniform = _diverUniform;
-	_rig = _diverRig;
-	_glasses = _diverGlasses;
-};
-
 // Ghillie
 if (_typeOfUnit in _ghillie) then {
 	_helmet = _ghillieHelmet;

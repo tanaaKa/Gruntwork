@@ -63,10 +63,8 @@ switch (_unitfaction) do
 		["GrpBLUFOR_MAT1", 3, "MAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpBLUFOR_HAT1",  3, "HAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpBLUFOR_MTR1",  5, "MTR1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpBLUFOR_MSAM1",  3, "MSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpBLUFOR_HSAM1",  3, "HSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+		["GrpBLUFOR_SAM1",  3, "SAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpBLUFOR_ST1",  4, "ST1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpBLUFOR_DT1",  4, "DT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpBLUFOR_ENG1",  6, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 
  		["GrpBLUFOR_IFV1",  7, "IFV1", "ColorRed"] spawn f_fnc_localGroupMarker;
@@ -124,10 +122,8 @@ switch (_unitfaction) do
 		["GrpOPFOR_MAT1", 3, "MAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpOPFOR_HAT1",  3, "HAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpOPFOR_MTR1",  5, "MTR1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpOPFOR_MSAM1",  3, "MSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpOPFOR_HSAM1",  3, "HSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+		["GrpOPFOR_SAM1",  3, "SAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpOPFOR_ST1",  4, "ST1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpOPFOR_DT1",  4, "DT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpOPFOR_ENG1",  6, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 
  		["GrpOPFOR_IFV1",  7, "IFV1", "ColorRed"] spawn f_fnc_localGroupMarker;
@@ -185,10 +181,8 @@ switch (_unitfaction) do
 		["GrpINDFOR_MAT1", 3, "MAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpINDFOR_HAT1",  3, "HAT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpINDFOR_MTR1",  5, "MTR1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpINDFOR_MSAM1",  3, "MSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpINDFOR_HSAM1",  3, "HSAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+		["GrpINDFOR_SAM1",  3, "SAM1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpINDFOR_ST1",  4, "ST1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-		["GrpINDFOR_DT1",  4, "DT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 		["GrpINDFOR_ENG1",  6, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 
  		["GrpINDFOR_IFV1",  7, "IFV1", "ColorRed"] spawn f_fnc_localGroupMarker;
