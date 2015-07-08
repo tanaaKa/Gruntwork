@@ -145,6 +145,7 @@ _clacker = "ACE_Clacker";					// for engineers
 _spotterscope = "ACE_SpottingScope";		// for spotters
 _tripod = "ACE_Tripod";						// for spotters
 _rangecard = "ACE_RangeCard";				// for spotters
+_rangetable = "ACE_RangeTable_82mm";		// for mortar gunners
 
 // ====================================================================================
 
@@ -518,6 +519,7 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
+		_unit addItem _rangetable;
 		["mtrg"] call _backpack;
 		_attachments = [_attach1];
 	};
