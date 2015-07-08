@@ -227,9 +227,9 @@ _crewRig = ["rhsusf_iotv_ucp_Repair"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["rhs_uniform_cu_ucp"];
-_ghillieHelmet = ["rhs_Booniehat_ucp"];
-_ghillieRig = ["rhsusf_iotv_ucp_Squadleader"];
+_ghillieUniform = ["U_B_FullGhillie_ard"];
+_ghillieHelmet = [];
+_ghillieRig = ["V_Chestrig_rgr"];
 _ghillieGlasses = [];
 
 // ====================================================================================

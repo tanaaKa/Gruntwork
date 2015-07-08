@@ -227,9 +227,9 @@ _crewRig = ["rhsusf_spc"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["rhs_uniform_FROG01_wd"];
-_ghillieHelmet = ["rhs_Booniehat_marpatwd"];
-_ghillieRig = ["MNP_Vest_NZ_1","MNP_Vest_NZ_2"];
+_ghillieUniform = ["U_B_FullGhillie_lsh"];
+_ghillieHelmet = [];
+_ghillieRig = ["V_Chestrig_rgr"];
 _ghillieGlasses = [];
 
 // ====================================================================================

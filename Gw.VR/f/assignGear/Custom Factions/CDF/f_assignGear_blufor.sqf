@@ -227,9 +227,9 @@ _crewRig = ["LOP_V_6Sh92_CDF"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["LOP_U_CDF_Fatigue_01"];
-_ghillieHelmet = ["LOP_H_Fieldcap_CDF"];
-_ghillieRig = ["LOP_V_6B23_Rifleman_CDF"];
+_ghillieUniform = ["U_B_FullGhillie_lsh"];
+_ghillieHelmet = [];
+_ghillieRig = ["V_Chestrig_rgr"];
 _ghillieGlasses = [];
 
 // ====================================================================================
