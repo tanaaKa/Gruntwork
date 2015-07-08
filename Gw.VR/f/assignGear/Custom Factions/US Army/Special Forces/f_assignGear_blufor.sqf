@@ -130,12 +130,12 @@ _chemblue = "Chemlight_blue";
 _bagsmall = "B_AssaultPack_rgr";				// small
 _bagmedium = "rhsusf_assault_eagleaiii_ocp";	// medium
 _baglarge =  "B_Carryall_cbr"; 					// large
-_baghmgg = "B_HMG_01_weapon_F";					// used by Heavy MG gunner
-_baghmgag = "B_HMG_01_support_F";				// used by Heavy MG assistant gunner
-_baghatg = "B_AT_01_weapon_F";					// used by Heavy AT gunner
-_baghatag = "B_HMG_01_support_F";				// used by Heavy AT assistant gunner
-_bagmtrg = "B_Mortar_01_weapon_F";				// used by Mortar gunner
-_bagmtrag = "B_Mortar_01_support_F";			// used by Mortar assistant gunner
+_baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
+_baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
+_baghatg = "RDS_Tow_Gun_Bag";					// used by Heavy AT gunner
+_baghatag = "RDS_Tow_Gun_Bag";					// used by Heavy AT assistant gunner
+_bagmtrg = "RDS_M252_Gun_Bag";					// used by Mortar gunner
+_bagmtrag = "RDS_M252_Bipod_Bag";				// used by Mortar assistant gunner
 
 // Misc. Equipment
 _sparebarrel = "ACE_SpareBarrel";			// for ARs and MMGs

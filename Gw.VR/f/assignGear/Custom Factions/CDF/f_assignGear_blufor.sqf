@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - US Army (UCP)
+// F3 - Folk ARPS Assign Gear Script - CDF
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -52,20 +52,20 @@
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
 // ATTACHMENTS - PRIMARY
-_attach1 = "rhsusf_acc_anpeq15side";	// IR Laser
-_attach2 = "acc_flashlight";			// Flashlight
+_attach1 = "";					// IR Laser
+_attach2 = "";					// Flashlight
 
-_silencer1 = "rhsusf_acc_nt4_black";	// Primary
+_silencer1 = "rhs_acc_pbs1";	// Primary
 
-_scope1 = "rhsusf_acc_eotech_552";		// Short Range
-_scope2 = "rhsusf_acc_nt4_black";		// Medium Range
-_scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
-_scope4 = "rhsusf_acc_LEUPOLDMK4_2";	// Long Range
+_scope1 = "";					// Short Range
+_scope2 = "";					// Medium Range
+_scope3 = "rhs_acc_pso1m2";		// Medium - Long Range
+_scope4 = "rhs_acc_pso1m2";		// Long Range
 
-_bipod1 = "";							// Light Machine Gun
-_bipod2 = "";							// Medium Machine Gun
-_bipod3 = "rhsusf_acc_harris_bipod";	// Marksman
-_bipod4 = "rhsusf_acc_harris_bipod";	// Sniper
+_bipod1 = "";					// Light Machine Gun
+_bipod2 = "";					// Medium Machine Gun
+_bipod3 = "";					// Marksman
+_bipod4 = "";					// Sniper
 
 // Default setup
 _attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
@@ -75,41 +75,41 @@ _attachments = [_attach1,_scope1]; // The default attachment set for most units,
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "rhs_weap_m4a1_carryhandle";
-_riflemag = "30Rnd_556x45_Stanag";
-_riflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
+_rifle = "rhs_weap_akm";
+_riflemag = "rhs_30Rnd_762x39mm";
+_riflemag_tr = "rhs_30Rnd_762x39mm_tracer";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "rhs_weap_m4a1_carryhandle";
-_carbinemag = "30Rnd_556x45_Stanag";
-_carbinemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
+_carbine = "rhs_weap_akm";
+_carbinemag = "rhs_30Rnd_762x39mm";
+_carbinemag_tr = "rhs_30Rnd_762x39mm_tracer";
 
 // Rifle with GL and HE grenades (CO, SL, FTLs)
-_glrifle = "rhs_weap_m4a1_carryhandle_m203";
-_glriflemag = "30Rnd_556x45_Stanag";
-_glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
-_glmag = "1Rnd_HE_Grenade_shell";
+_glrifle = "rhs_weap_akm_gp25";
+_glriflemag = "rhs_30Rnd_762x39mm";
+_glriflemag_tr = "rhs_30Rnd_762x39mm_tracer";
+_glmag = "rhs_VOG25";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "CUP_smg_MP5A5";
-_smgmag = "CUP_30Rnd_9x19_MP5";
+_smg = "SMG_01_F";
+_smgmag = "30Rnd_45ACP_Mag_SMG_01";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glsmokewhite = "1Rnd_Smoke_Grenade_shell";
-_glsmokegreen = "1Rnd_SmokeGreen_Grenade_shell";
-_glsmokered = "1Rnd_SmokeRed_Grenade_shell";
+_glsmokewhite = "rhs_GRD40_White";
+_glsmokegreen = "rhs_GRD40_Green";
+_glsmokered = "rhs_GRD40_Red";
 
 // Flares for FTLs, Squad Leaders, etc
-_glflarewhite = "UGL_FlareWhite_F";
-_glflarered = "UGL_FlareRed_F";
-_glflaregreen = "UGL_FlareGreen_F";
+_glflarewhite = "rhs_VG40OP_white";
+_glflarered = "rhs_VG40OP_red";
+_glflaregreen = "rhs_VG40OP_green";
 
 // Pistols (CO, SL, Automatic Rifleman, Medium MG Gunner)
-_pistol = "rhsusf_weap_m1911a1";
-_pistolmag = "rhsusf_mag_7x45acp_MHP";
+_pistol = "rhs_weap_makarov_pmm";
+_pistolmag = "rhs_mag_9x18_12_57N181S";
 
 // Grenades
-_grenade = "HandGrenade";
+_grenade = "rhs_mag_rgd5";
 _smokegrenade = "SmokeShell";
 _smokegrenadegreen = "SmokeShellGreen";
 
@@ -127,15 +127,15 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "B_AssaultPack_cbr";				// small
-_bagmedium = "rhsusf_assault_eagleaiii_ucp";	// medium
-_baglarge =  "B_Carryall_cbr"; 					// large
-_baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
-_baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
-_baghatg = "RDS_Tow_Gun_Bag";					// used by Heavy AT gunner
-_baghatag = "RDS_Tow_Gun_Bag";					// used by Heavy AT assistant gunner
-_bagmtrg = "RDS_M252_Gun_Bag";					// used by Mortar gunner
-_bagmtrag = "RDS_M252_Bipod_Bag";				// used by Mortar assistant gunner
+_bagsmall = "rhs_sidor";					// small
+_bagmedium = "rhs_assault_umbts";			// medium
+_baglarge =  "B_Carryall_oli"; 				// large
+_baghmgg = "RHS_NSV_Gun_Bag";				// used by Heavy MG gunner
+_baghmgag = "RHS_NSV_Tripod_Bag";			// used by Heavy MG assistant gunner
+_baghatg = "RDS_Metis_Gun_Bag";				// used by Heavy AT gunner
+_baghatag = "RDS_Metis_Tripod_Bag";			// used by Heavy AT assistant gunner
+_bagmtrg = "RDS_Podnos_Gun_Bag";			// used by Mortar gunner
+_bagmtrag = "RDS_Podnos_Bipod_Bag";			// used by Mortar assistant gunner
 
 // Misc. Equipment
 _sparebarrel = "ACE_SpareBarrel";			// for ARs and MMGs
@@ -150,44 +150,44 @@ _tripod = "ACE_Tripod";						// for spotters
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "rhs_weap_m249_pip_S";
-_ARmag = "rhs_200rnd_556x45_B_SAW";
-_ARmag_tr = "rhs_200rnd_556x45_T_SAW";
+_AR = "CUP_arifle_RPK74";
+_ARmag = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+_ARmag_tr = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 
 // Medium MG
-_MMG = "rhs_weap_m240B_CAP";
-_MMGmag = "rhsusf_100Rnd_762x51";
-_MMGmag_tr = "rhsusf_100Rnd_762x51";
+_MMG = "rhs_weap_pkm";
+_MMGmag = "rhs_100Rnd_762x54mmR";
+_MMGmag_tr = "rhs_100Rnd_762x54mmR_green";
 
 // Rifleman AT
-_RAT = "rhs_weap_M136_hedp";
-_RATmag = "rhs_m136_hedp_mag";
+_RAT = "rhs_weap_rpg26";
+_RATmag = "rhs_rpg26_mag";
 
 // Medium AT
-_MAT = "CUP_launch_MAAWS";
-_MATmag1 = "CUP_MAAWS_HEAT_M";
-_MATmag2 = "CUP_MAAWS_HEDP_M";
+_MAT = "rhs_weap_rpg7";
+_MATmag1 = "rhs_rpg7_PG7VL_mag";
+_MATmag2 = "rhs_rpg7_OG7V_mag";
 
 // Surface Air
-_SAM = "rhs_weap_fim92";
-_SAMmag = "rhs_fim92_mag";
+_SAM = "rhs_weap_igla";
+_SAMmag = "rhs_mag_9k38_rocket";
 
 // Heavy AT
-_HAT = "rhs_weap_fgm148";
-_HATmag = "rhs_fgm148_magazine_AT";
+_HAT = "CUP_launch_Metis";
+_HATmag = "CUP_AT13_M";
 
 // Marksman Rifle
-_DMrifle = "rhs_weap_m14ebrri";
-_DMriflemag = "rhsusf_20Rnd_762x51_m118_special_Mag";
+_DMrifle = "rhs_weap_svds";
+_DMriflemag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Sniper
-_SNrifle = "rhs_weap_XM2010";
-_SNrifleMag = "rhsusf_5Rnd_300winmag_xm2010";
+_SNrifle = "rhs_weap_svdp";
+_SNrifleMag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Engineer items
-_ATmine = "rhs_mine_M19_mag";
+_ATmine = "rhs_mine_tm62m_mag";
 _satchel = "DemoCharge_Remote_Mag";
-_APmine = "ClaymoreDirectionalMine_Remote_Mag";
+_APmine = "rhs_mine_pmn2_mag";
 
 // ====================================================================================
 
@@ -202,15 +202,15 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["rhs_uniform_cu_ucp"];
-_baseHelmet = ["rhsusf_ach_helmet_ucp"];
-_baseVest = ["rhsusf_iotv_ucp_Squadleader"];
+_baseUniform = ["LOP_U_CDF_Fatigue_01"];
+_baseHelmet = ["LOP_H_6B27M_CDF"];
+_baseVest = ["LOP_V_6B23_Rifleman_CDF"];
 _baseGlasses = [];
 
 // Pilot
-_pilotUniform = ["rhs_uniform_cu_ucp"];
-_pilotHelmet = ["H_PilotHelmetHeli_B"];
-_pilotRig = ["rhsusf_iotv_ucp"];
+_pilotUniform = ["LOP_U_CDF_Fatigue_01"];
+_pilotHelmet = ["rhs_zsh7a_mike"];
+_pilotRig = ["LOP_V_6Sh92_CDF"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
@@ -220,15 +220,15 @@ _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["rhs_uniform_cu_ucp"];
-_crewHelmet = ["rhsusf_cvc_helmet","rhsusf_cvc_helmet_ess"];
-_crewRig = ["rhsusf_iotv_ucp_Repair"];
+_crewUniform = ["LOP_U_CDF_Fatigue_01"];
+_crewHelmet = ["rhs_tsh4","rhs_tsh4_ess"];
+_crewRig = ["LOP_V_6Sh92_CDF"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["rhs_uniform_cu_ucp"];
-_ghillieHelmet = ["rhs_Booniehat_ucp"];
-_ghillieRig = ["rhsusf_iotv_ucp_Squadleader"];
+_ghillieUniform = ["LOP_U_CDF_Fatigue_01"];
+_ghillieHelmet = ["LOP_H_Fieldcap_CDF"];
+_ghillieRig = ["LOP_V_6B23_Rifleman_CDF"];
 _ghillieGlasses = [];
 
 // ====================================================================================
