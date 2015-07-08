@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - ChDKZ
+// F3 - Folk ARPS Assign Gear Script - Takistani Militia
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -105,8 +105,8 @@ _glflarered = "rhs_VG40OP_red";
 _glflaregreen = "rhs_VG40OP_green";
 
 // Pistols (CO, SL, Automatic Rifleman, Medium MG Gunner)
-_pistol = "rhs_weap_makarov_pmm";
-_pistolmag = "rhs_mag_9x18_12_57N181S";
+_pistol = "rhsusf_weap_m1911a1";
+_pistolmag = "rhsusf_mag_7x45acp_MHP";
 
 // Grenades
 _grenade = "rhs_mag_rgd5";
@@ -118,7 +118,7 @@ _firstaid = "FirstAidKit";
 _medkit = "Medikit";
 
 // Night Vision Goggles (NVGoggles)
-_nvg = "NVGoggles_OPFOR";
+_nvg = "NVGoggles_INDEP";
 
 // Chemlights
 _chemgreen =  "Chemlight_green";
@@ -202,34 +202,34 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
-_baseHelmet = [];
+_baseUniform = ["LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_04"];
+_baseHelmet = ["LOP_H_Pakol","H_ShemagOpen_tan","H_ShemagOpen_khk","LOP_H_Turban","LOP_H_Turban_mask"];
 _baseRig = ["LOP_6sh46"];
-_baseGlasses = ["G_Balaclava_oli"];
+_baseGlasses = [];
 
 // Pilot
-_pilotUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
+_pilotUniform = ["LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_04"];
 _pilotHelmet = ["rhs_gssh18"];
-_pilotRig = ["LOP_V_6Sh92_CDF"];
+_pilotRig = ["LOP_6sh46"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
-_fwpilotUniform = ["rhs_uniform_df15"];
-_fwpilotHelmet = ["rhs_zsh7a"];
+_fwpilotUniform = ["U_I_pilotCoveralls"];
+_fwpilotHelmet = ["H_PilotHelmetFighter_I"];
 _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
-_crewHelmet = ["rhs_tsh4","rhs_tsh4_ess"];
-_crewRig = ["LOP_V_6Sh92_CDF"];
+_crewUniform = ["LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_04"];
+_crewHelmet = ["rhs_tsh4"];
+_crewRig = ["LOP_6sh46"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
-_ghillieHelmet = [];
+_ghillieUniform = ["LOP_U_AM_Fatigue_01","LOP_U_AM_Fatigue_02","LOP_U_AM_Fatigue_03","LOP_U_AM_Fatigue_04"];
+_ghillieHelmet = ["LOP_H_Pakol","H_ShemagOpen_tan","H_ShemagOpen_khk","LOP_H_Turban","LOP_H_Turban_mask"];
 _ghillieRig = ["LOP_6sh46"];
-_ghillieGlasses = ["G_Balaclava_oli"];
+_ghillieGlasses = [];
 
 // ====================================================================================
 
@@ -286,7 +286,7 @@ _backpack = {
 	if (count _this > 1) then {_loadout = _this select 1};
 	switch (_typeofBackPack) do
 	{
-		#include "f_assignGear_opfor_b.sqf";
+		#include "f_assignGear_indfor_b.sqf";
 	};
 };
 
