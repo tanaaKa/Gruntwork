@@ -144,6 +144,7 @@ _defusalkit = "ACE_DefusalKit";				// for engineers
 _clacker = "ACE_Cellphone";					// for engineers
 _spotterscope = "ACE_SpottingScope";		// for spotters
 _tripod = "ACE_Tripod";						// for spotters
+_rangecard = "ACE_RangeCard";				// for spotters
 
 // ====================================================================================
 
@@ -581,6 +582,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "ACE_Vector";
+		_unit addItem _rangecard;
 		_unit linkItem "ItemGPS";
 		["sp"] call _backpack;
 		_attachments = [_attach1,_scope2];
