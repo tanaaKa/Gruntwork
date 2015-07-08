@@ -204,7 +204,7 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["rhs_uniform_cu_ocp"];
 _baseHelmet = ["rhsusf_ach_helmet_ocp"];
-_baseVest = ["rhsusf_iotv_ocp_Squadleader"];
+_baseRig = ["rhsusf_iotv_ocp_Squadleader"];
 _baseGlasses = [];
 
 // Pilot

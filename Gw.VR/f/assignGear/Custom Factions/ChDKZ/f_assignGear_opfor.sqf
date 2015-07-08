@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - CDF
+// F3 - Folk ARPS Assign Gear Script - ChDKZ
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -91,8 +91,8 @@ _glriflemag_tr = "rhs_30Rnd_762x39mm_tracer";
 _glmag = "rhs_VOG25";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
+_smg = "CUP_arifle_AKS74U";
+_smgmag = "CUP_30Rnd_545x39_AK_M";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "rhs_GRD40_White";
@@ -118,7 +118,7 @@ _firstaid = "FirstAidKit";
 _medkit = "Medikit";
 
 // Night Vision Goggles (NVGoggles)
-_nvg = "NVGoggles";
+_nvg = "NVGoggles_OPFOR";
 
 // Chemlights
 _chemgreen =  "Chemlight_green";
@@ -141,7 +141,7 @@ _bagmtrag = "RDS_Podnos_Bipod_Bag";			// used by Mortar assistant gunner
 _sparebarrel = "ACE_SpareBarrel";			// for ARs and MMGs
 _maptools = "ACE_MapTools";					// for SLs, DCs, and COs
 _defusalkit = "ACE_DefusalKit";				// for engineers
-_clacker = "ACE_Clacker";					// for engineers
+_clacker = "ACE_Cellphone";					// for engineers
 _spotterscope = "ACE_SpottingScope";		// for spotters
 _tripod = "ACE_Tripod";						// for spotters
 
@@ -181,12 +181,12 @@ _DMrifle = "rhs_weap_svds";
 _DMriflemag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Sniper
-_SNrifle = "rhs_weap_svdp";
+_SNrifle = "rhs_weap_svdp_wd";
 _SNrifleMag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Engineer items
 _ATmine = "rhs_mine_tm62m_mag";
-_satchel = "DemoCharge_Remote_Mag";
+_satchel = "IEDUrbanSmall_Remote_Mag";
 _APmine = "rhs_mine_pmn2_mag";
 
 // ====================================================================================
@@ -202,34 +202,34 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["LOP_U_CDF_Fatigue_01"];
-_baseHelmet = ["LOP_H_6B27M_CDF"];
-_baseRig = ["LOP_V_6B23_Rifleman_CDF"];
-_baseGlasses = [];
+_baseUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
+_baseHelmet = [];
+_baseRig = ["LOP_6sh46"];
+_baseGlasses = ["G_Balaclava_oli"];
 
 // Pilot
-_pilotUniform = ["LOP_U_CDF_Fatigue_01"];
-_pilotHelmet = ["rhs_zsh7a_mike"];
+_pilotUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
+_pilotHelmet = ["rhs_gssh18"];
 _pilotRig = ["LOP_V_6Sh92_CDF"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
-_fwpilotUniform = ["U_B_pilotCoveralls"];
-_fwpilotHelmet = ["H_PilotHelmetFighter_B"];
+_fwpilotUniform = ["rhs_uniform_df15"];
+_fwpilotHelmet = ["rhs_zsh7a"];
 _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["LOP_U_CDF_Fatigue_01"];
+_crewUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
 _crewHelmet = ["rhs_tsh4","rhs_tsh4_ess"];
 _crewRig = ["LOP_V_6Sh92_CDF"];
 _crewGlasses = [];
 
 // Ghillie
-_ghillieUniform = ["LOP_U_CDF_Fatigue_01"];
-_ghillieHelmet = ["LOP_H_Fieldcap_CDF"];
-_ghillieRig = ["LOP_V_6B23_Rifleman_CDF"];
-_ghillieGlasses = [];
+_ghillieUniform = ["LOP_U_ChDKZ_Fatigue_01","LOP_U_ChDKZ_Fatigue_02","LOP_U_ChDKZ_Fatigue_03","LOP_U_ChDKZ_Fatigue_04"];
+_ghillieHelmet = [];
+_ghillieRig = ["LOP_6sh46"];
+_ghillieGlasses = ["G_Balaclava_oli"];
 
 // ====================================================================================
 
@@ -286,7 +286,7 @@ _backpack = {
 	if (count _this > 1) then {_loadout = _this select 1};
 	switch (_typeofBackPack) do
 	{
-		#include "f_assignGear_blufor_b.sqf";
+		#include "f_assignGear_opfor_b.sqf";
 	};
 };
 

@@ -204,7 +204,7 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["U_O_CombatUniform_ocamo"];
 _baseHelmet = ["H_HelmetO_ocamo"];
-_baseVest = ["V_HarnessO_brn"];
+_baseRig = ["V_HarnessO_brn"];
 _baseGlasses = [];
 
 // Pilot

@@ -204,7 +204,7 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["U_I_CombatUniform"];
 _baseHelmet = ["H_HelmetIA"];
-_baseVest = ["V_PlateCarrierIA1_dgtl","V_PlateCarrierIA2_dgtl"];
+_baseRig = ["V_PlateCarrierIA1_dgtl","V_PlateCarrierIA2_dgtl"];
 _baseGlasses = [];
 
 // Pilot
