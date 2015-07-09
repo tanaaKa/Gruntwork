@@ -210,9 +210,9 @@ _baseRig = ["MNP_Vest_NZ_1","MNP_Vest_NZ_2"];
 _baseGlasses = [];
 
 // Pilot
-_pilotUniform = ["rhs_uniform_FROG01_wd"];
+_pilotUniform = ["U_B_HeliPilotCoveralls"];
 _pilotHelmet = ["H_PilotHelmetHeli_B"];
-_pilotRig = ["rhsusf_spc"];
+_pilotRig = ["V_TacVest_blk"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
