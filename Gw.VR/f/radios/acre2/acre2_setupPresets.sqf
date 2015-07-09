@@ -33,4 +33,11 @@
 		_counter = _counter + 1;
 	} forEach f_radios_settings_acre2_groups_indfor;
 	
+	_counter = 1;
+	{
+		_channelName = _x;
+		[_radioName, "default5", _counter, _nameField, _x] call acre_api_fnc_setPresetChannelField;
+		_counter = _counter + 1;
+	} forEach f_radios_settings_acre2_groups_civilan;
+	
 } forEach ["ACRE_PRC148","ACRE_PRC152","ACRE_PRC117F"];
