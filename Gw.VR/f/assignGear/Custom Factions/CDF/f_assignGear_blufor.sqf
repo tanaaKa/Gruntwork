@@ -207,13 +207,13 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["LOP_U_CDF_Fatigue_01"];
 _baseHelmet = ["LOP_H_6B27M_CDF"];
-_baseRig = ["LOP_V_6B23_Rifleman_CDF"];
+_baseRig = ["LOP_V_6B23_Rifleman_OLV"];
 _baseGlasses = [];
 
 // Pilot
 _pilotUniform = ["LOP_U_CDF_Fatigue_01"];
 _pilotHelmet = ["rhs_zsh7a_mike"];
-_pilotRig = ["LOP_V_6Sh92_CDF"];
+_pilotRig = ["LOP_V_6Sh92_OLV"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
@@ -225,13 +225,13 @@ _fwpilotGlasses = [];
 // Crewman
 _crewUniform = ["LOP_U_CDF_Fatigue_01"];
 _crewHelmet = ["rhs_tsh4","rhs_tsh4_ess"];
-_crewRig = ["LOP_V_6Sh92_CDF"];
+_crewRig = ["LOP_V_6Sh92_OLV"];
 _crewGlasses = [];
 
 // Ghillie
 _ghillieUniform = ["U_B_FullGhillie_lsh"];
 _ghillieHelmet = [];
-_ghillieRig = ["V_Chestrig_rgr"];
+_ghillieRig = ["V_Chestrig_khk"];
 _ghillieGlasses = [];
 
 // ====================================================================================
