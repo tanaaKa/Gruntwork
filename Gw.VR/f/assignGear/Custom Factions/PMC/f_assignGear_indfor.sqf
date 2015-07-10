@@ -57,14 +57,14 @@ _attach2 = "acc_flashlight";			// Flashlight
 
 _silencer1 = "rhsusf_acc_nt4_black";	// Primary
 
-_scope1 = "rhsusf_acc_eotech_552";		// Short Range
-_scope2 = "rhsusf_acc_nt4_black";		// Medium Range
-_scope3 = "rhs_acc_pso1m2";				// Medium - Long Range
-_scope4 = "optic_LRPS";					// Long Range
+_scope1 = "";							// Short Range
+_scope2 = "";							// Medium Range
+_scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
+_scope4 = "rhs_acc_pso1m2";				// Long Range
 
 _bipod1 = "";							// Light Machine Gun
 _bipod2 = "";							// Medium Machine Gun
-_bipod3 = "";							// Marksman
+_bipod3 = "rhsusf_acc_harris_bipod";	// Marksman
 _bipod4 = "";							// Sniper
 
 // Default setup
@@ -75,12 +75,12 @@ _attachments = [_attach1,_scope1]; // The default attachment set for most units,
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "arifle_TRG21_F";
+_rifle = "arifle_Mk20_plain_F";
 _riflemag = "30Rnd_556x45_Stanag";
 _riflemag_tr = "30Rnd_556x45_Stanag_Tracer_Yellow";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "rhs_weap_m4a1_carryhandle_grip";
+_carbine = "arifle_TRG20_F";
 _carbinemag = "30Rnd_556x45_Stanag";
 _carbinemag_tr = "30Rnd_556x45_Stanag_Tracer_Yellow";
 
@@ -91,8 +91,8 @@ _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Yellow";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
+_smg = "SMG_02_F";
+_smgmag = "30Rnd_9x21_Mag";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "1Rnd_Smoke_Grenade_shell";
@@ -105,8 +105,8 @@ _glflarered = "UGL_FlareRed_F";
 _glflaregreen = "UGL_FlareGreen_F";
 
 // Pistols (CO, SL, Automatic Rifleman, Medium MG Gunner)
-_pistol = "hgun_P07_F";
-_pistolmag = "16Rnd_9x21_Mag";
+_pistol = "hgun_Pistol_heavy_02_F";
+_pistolmag = "6Rnd_45ACP_Cylinder";
 
 // Grenades
 _grenade = "HandGrenade";
@@ -118,7 +118,7 @@ _firstaid = "FirstAidKit";
 _medkit = "Medikit";
 
 // Night Vision Goggles (NVGoggles)
-_nvg = "NVGoggles";
+_nvg = "NVGoggles_INDEP";
 
 // Chemlights
 _chemgreen =  "Chemlight_green";
@@ -128,7 +128,7 @@ _chemblue = "Chemlight_blue";
 
 // Backpacks
 _bagsmall = "B_AssaultPack_blk";				// small
-_bagmedium = "B_FieldPack_blk";					// medium
+_bagmedium = "B_TacticalPack_blk";				// medium
 _baglarge =  "B_Carryall_cbr"; 					// large
 _baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
 _baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
@@ -179,12 +179,12 @@ _HAT = "rhs_weap_fgm148";
 _HATmag = "rhs_fgm148_magazine_AT";
 
 // Marksman Rifle
-_DMrifle = "rhs_weap_svds";
-_DMriflemag = "rhs_10Rnd_762x54mmR_7N1";
+_DMrifle = "rhs_weap_m14ebrri";
+_DMriflemag = "rhsusf_20Rnd_762x51_m118_special_Mag";
 
 // Sniper
-_SNrifle = "srifle_LRR_F";
-_SNrifleMag = "7Rnd_408_Mag";
+_SNrifle = "rhs_weap_svdp";
+_SNrifleMag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Engineer items
 _ATmine = "rhs_mine_M19_mag";
@@ -204,15 +204,15 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["TRYK_U_pad_hood_Cl"];
-_baseHelmet = ["H_Watchcap_camo","rhsusf_Bowman","rhsusf_bowman_cap","H_Booniehat_khk_hs","H_Beret_blk","TRYK_H_PASGT_BLK"];
-_baseRig = ["TRYK_V_Sheriff_BA_TB2"];
+_baseUniform = ["TRYK_shirts_DENIM_BK","TRYK_shirts_DENIM_BL","TRYK_shirts_DENIM_BWH","TRYK_shirts_DENIM_od","TRYK_shirts_DENIM_R","TRYK_shirts_DENIM_RED2","TRYK_shirts_DENIM_WH","TRYK_shirts_DENIM_WHB","TRYK_shirts_DENIM_ylb","TRYK_U_B_Denim_T_BG_BK","TRYK_U_B_Denim_T_BG_WH"];
+_baseHelmet = [];
+_baseRig = ["TRYK_V_Sheriff_BA_TB2","TRYK_V_Sheriff_BA_T2"];
 _baseGlasses = [];
 
 // Pilot
-_pilotUniform = ["TRYK_U_pad_hood_Cl"];
-_pilotHelmet = ["H_PilotHelmetHeli_B"];
-_pilotRig = ["TRYK_V_Sheriff_BA_TB"];
+_pilotUniform = ["TRYK_shirts_DENIM_BK","TRYK_shirts_DENIM_BL","TRYK_shirts_DENIM_BWH","TRYK_shirts_DENIM_od","TRYK_shirts_DENIM_R","TRYK_shirts_DENIM_RED2","TRYK_shirts_DENIM_WH","TRYK_shirts_DENIM_WHB","TRYK_shirts_DENIM_ylb","TRYK_U_B_Denim_T_BG_BK","TRYK_U_B_Denim_T_BG_WH"];
+_pilotHelmet = ["rhs_gssh18"];
+_pilotRig = ["TRYK_V_Sheriff_BA_TB","TRYK_V_Sheriff_BA_T"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
@@ -222,9 +222,9 @@ _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["TRYK_U_pad_hood_Cl"];
-_crewHelmet = ["rhs_tsh4"];
-_crewRig = ["TRYK_V_Sheriff_BA_TB"];
+_crewUniform = ["TRYK_shirts_DENIM_BK","TRYK_shirts_DENIM_BL","TRYK_shirts_DENIM_BWH","TRYK_shirts_DENIM_od","TRYK_shirts_DENIM_R","TRYK_shirts_DENIM_RED2","TRYK_shirts_DENIM_WH","TRYK_shirts_DENIM_WHB","TRYK_shirts_DENIM_ylb","TRYK_U_B_Denim_T_BG_BK","TRYK_U_B_Denim_T_BG_WH"];
+_crewHelmet = ["rhsusf_Bowman"];
+_crewRig = ["TRYK_V_Sheriff_BA_TB","TRYK_V_Sheriff_BA_T"];
 _crewGlasses = [];
 
 // Ghillie
