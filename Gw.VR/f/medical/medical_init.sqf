@@ -20,7 +20,7 @@ call
 		// If script is being run on a client
 		if (hasInterface) then
 		{
-			[] execVM "f\allGear\ACE_clientInit.sqf";
+			[] execVM "f\medical\ACE_clientInit.sqf";
 		};
 	};	
 };

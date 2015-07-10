@@ -63,14 +63,10 @@ f_script_setGroupMarkers = [] execVM "f\groupMarkers\f_setLocalGroupMarkers.sqf"
 
 // ====================================================================================
 
-// F3 - All Gear
+// F3 - Medical
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-// SWS Config Settings
-// How many extra FirstAidKits (FAKS) each player should receive when using the F3 Simple Wounding System:
-f_wound_extraFAK = 2;
-
-[] execVM "f\allGear\allGear_init.sqf";
+[] execVM "f\medical\medical_init.sqf";
 
 // ====================================================================================
 
