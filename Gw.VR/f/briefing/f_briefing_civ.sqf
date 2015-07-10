@@ -42,7 +42,7 @@ Channel 2 - Bravo Fireteam Leaders
 Channel 3 - Charlie Fireteam Leaders
 <br/><br/>
 <font size='18'>SUPPORT CHANNELS</font>
-<br/><br/>
+<br/>
 Channels 5 - Armor Support
 <br/>
 Channels 6 - Air Support
