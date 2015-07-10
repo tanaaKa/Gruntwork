@@ -17,7 +17,7 @@ removeVest _unit;
 // Assign default clothes
 _uniform = _baseUniform;
 _helmet = _baseHelmet;
-_rig = _baseVest;
+_rig = _baseRig;
 _glasses = _baseGlasses;
 
 // Flip through unit to assign specialized uniforms
