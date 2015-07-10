@@ -57,8 +57,8 @@ _attach2 = "acc_flashlight";			// Flashlight
 
 _silencer1 = "rhsusf_acc_nt4_black";	// Primary
 
-_scope1 = "";							// Short Range
-_scope2 = "";							// Medium Range
+_scope1 = "rhsusf_acc_eotech_552";		// Short Range
+_scope2 = "rhsusf_acc_compm4";			// Medium Range
 _scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
 _scope4 = "rhs_acc_pso1m2";				// Long Range
 
