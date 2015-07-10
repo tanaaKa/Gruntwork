@@ -850,7 +850,7 @@ if (!_isMan) then
 	// Advanced Combat Environment 3
 	if (f_var_medical == 2) exitWith
 		{
-			[_unit] execVM "f\allGear\ACE_converter.sqf";
+			[_unit] execVM "f\medical\ACE_converter.sqf";
 		};
 	};
 
