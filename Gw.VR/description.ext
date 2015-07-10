@@ -112,56 +112,6 @@ class CfgDebriefing
 		// pictureColor[] = {0.0,0.3,0.6,1};
 	};
 
-	class End2
-	{
-		title = "Mission Ended";
-		subtitle = "";
-		description = "The mission has been ended.";
-		// pictureBackground = "";
-		// picture = "";
-		// pictureColor[] = {0.0,0.3,0.6,1};
-	};
-
-	class End3
-	{
-		title = "Mission Ended";
-		subtitle = "";
-		description = "The mission has been ended.";
-		// pictureBackground = "";
-		// picture = "";
-		// pictureColor[] = {0.0,0.3,0.6,1};
-	};
-
-	class End4
-	{
-		title = "Mission Ended";
-		subtitle = "";
-		description = "The mission has been ended.";
-		// pictureBackground = "";
-		// picture = "";
-		// pictureColor[] = {0.0,0.3,0.6,1};
-	};
-
-	class End5
-	{
-		title = "Mission Ended";
-		subtitle = "";
-		description = "The mission has been ended.";
-		// pictureBackground = "";
-		// picture = "";
-		// pictureColor[] = {0.0,0.3,0.6,1};
-	};
-
-	class End6
-	{
-		title = "Mission Ended";
-		subtitle = "";
-		description = "The mission has been ended.";
-		// pictureBackground = "";
-		// picture = "";
-		// pictureColor[] = {0.0,0.3,0.6,1};
-	};
-
 };
 
 // ============================================================================================
@@ -212,12 +162,6 @@ class CfgFunctions
 
 			class nearPlayer{};
 		};
-		class mpEnd
-		{
-			file = "f\mpEnd";
-			class mpEnd{};
-			class mpEndReceiver{};
-		};
 		class assignGear
 		{
 			// Defines the functions to preInit the compling of the assignGear function used by units.
@@ -240,13 +184,6 @@ class CfgFunctions
 			class SetLocalFTMemberMarkers{};
 			class GetMarkerColor{};
 			class LocalFTMarkerSync{};
-		};
-		class zeus
-		{
-			file = "f\zeus";
-			class zeusInit{};
-			class zeusAddAddons{};
-			class zeusAddObjects{};
 		};
 		class acre
 		{
