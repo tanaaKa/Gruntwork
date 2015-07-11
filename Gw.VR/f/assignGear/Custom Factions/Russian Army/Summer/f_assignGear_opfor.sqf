@@ -344,9 +344,11 @@ switch (_typeofUnit) do
 	case "m":
 	{
 		_unit addmagazines [_carbinemag,7];
+		_unit addmagazines [_carbinemag_tr,2];
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
+		_unit addmagazines [_smokegrenadegreen,2];
 		_unit linkItem "ItemGPS";
 		["m"] call _backpack;
 		_attachments = [_attach1,_muzzle];
