@@ -102,7 +102,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=137;
+		items=155;
 		class Item0
 		{
 			side="WEST";
@@ -5411,7 +5411,7 @@ class Mission
 			side="EAST";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
 					position[]={602.97955,5,417.67725};
@@ -5420,39 +5420,6 @@ class Mission
 					vehicle="O_Soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={604.97174,5,415.28271};
-					id=343;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={607.87793,5,415.28271};
-					id=344;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={610.72559,5,415.34131};
-					id=345;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="OPFOR Join In Progress";
@@ -5468,7 +5435,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.41132,5,2558.4473};
-					id=346;
+					id=343;
 					side="WEST";
 					vehicle="B_Soldier_A_F";
 					player="PLAY CDG";
@@ -5482,7 +5449,7 @@ class Mission
 				class Item1
 				{
 					position[]={591.98944,5,2556.4707};
-					id=347;
+					id=344;
 					side="WEST";
 					vehicle="B_soldier_AR_F";
 					player="PLAY CDG";
@@ -5502,7 +5469,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.4953,5,2547.2734};
-					id=348;
+					id=345;
 					side="WEST";
 					vehicle="B_support_AMG_F";
 					player="PLAY CDG";
@@ -5516,7 +5483,7 @@ class Mission
 				class Item1
 				{
 					position[]={592.07343,5,2545.2969};
-					id=349;
+					id=346;
 					side="WEST";
 					vehicle="B_support_MG_F";
 					player="PLAY CDG";
@@ -5536,7 +5503,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.80682,5,2535.7363};
-					id=350;
+					id=347;
 					side="WEST";
 					vehicle="B_soldier_AAT_F";
 					player="PLAY CDG";
@@ -5550,7 +5517,7 @@ class Mission
 				class Item1
 				{
 					position[]={592.21112,5,2533.9785};
-					id=351;
+					id=348;
 					side="WEST";
 					vehicle="B_soldier_AT_F";
 					player="PLAY CDG";
@@ -5571,7 +5538,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.40839,5,2523.3672};
-					id=352;
+					id=349;
 					side="WEST";
 					vehicle="B_soldier_AAT_F";
 					player="PLAY CDG";
@@ -5585,7 +5552,7 @@ class Mission
 				class Item1
 				{
 					position[]={591.81268,5,2521.6094};
-					id=353;
+					id=350;
 					side="WEST";
 					vehicle="B_soldier_AT_F";
 					player="PLAY CDG";
@@ -5606,7 +5573,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.70428,5,2511.4932};
-					id=354;
+					id=351;
 					side="WEST";
 					vehicle="B_support_AMort_F";
 					player="PLAY CDG";
@@ -5620,7 +5587,7 @@ class Mission
 				class Item1
 				{
 					position[]={592.10858,5,2509.7373};
-					id=355;
+					id=352;
 					side="WEST";
 					vehicle="B_support_Mort_F";
 					player="PLAY CDG";
@@ -5641,7 +5608,7 @@ class Mission
 				class Item0
 				{
 					position[]={590.02948,5,2499.6572};
-					id=356;
+					id=353;
 					side="WEST";
 					vehicle="B_soldier_AAA_F";
 					player="PLAY CDG";
@@ -5655,7 +5622,7 @@ class Mission
 				class Item1
 				{
 					position[]={592.43378,5,2497.9014};
-					id=357;
+					id=354;
 					side="WEST";
 					vehicle="B_soldier_AA_F";
 					player="PLAY CDG";
@@ -5676,7 +5643,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.41425,5,2490.6245};
-					id=358;
+					id=355;
 					side="WEST";
 					vehicle="B_spotter_F";
 					player="PLAY CDG";
@@ -5690,7 +5657,7 @@ class Mission
 				class Item1
 				{
 					position[]={591.81854,5,2488.8667};
-					id=359;
+					id=356;
 					side="WEST";
 					vehicle="B_sniper_F";
 					player="PLAY CDG";
@@ -5711,7 +5678,7 @@ class Mission
 				class Item0
 				{
 					position[]={589.08807,5,2478.356};
-					id=360;
+					id=357;
 					side="WEST";
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
@@ -5725,7 +5692,7 @@ class Mission
 				class Item1
 				{
 					position[]={591.79413,5,2476.5591};
-					id=361;
+					id=358;
 					side="WEST";
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
@@ -5737,7 +5704,7 @@ class Mission
 				class Item2
 				{
 					position[]={594.64178,5,2476.3931};
-					id=362;
+					id=359;
 					side="WEST";
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
@@ -5749,7 +5716,7 @@ class Mission
 				class Item3
 				{
 					position[]={597.71405,5,2476.3384};
-					id=363;
+					id=360;
 					side="WEST";
 					vehicle="B_engineer_F";
 					player="PLAY CDG";
@@ -5765,48 +5732,15 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
-					position[]={588.72992,5,2451.8706};
-					id=364;
+					position[]={598.33929,5,2450.0698};
+					id=361;
 					side="WEST";
 					vehicle="B_Soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={591.65472,5,2449.9292};
-					id=365;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={594.98773,5,2449.9683};
-					id=366;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={598.33929,5,2450.0698};
-					id=367;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="BLUFOR Join In Progress";
@@ -5823,7 +5757,7 @@ class Mission
 				{
 					position[]={596.42963,5,1522.0635};
 					azimut=1.77231;
-					id=368;
+					id=362;
 					side="GUER";
 					vehicle="I_Soldier_A_F";
 					player="PLAY CDG";
@@ -5837,7 +5771,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.4726,5,1520.5186};
-					id=369;
+					id=363;
 					side="GUER";
 					vehicle="I_Soldier_AR_F";
 					player="PLAY CDG";
@@ -5858,7 +5792,7 @@ class Mission
 				{
 					position[]={596.1767,5,1510.4014};
 					azimut=1.77231;
-					id=370;
+					id=364;
 					side="GUER";
 					vehicle="I_support_AMG_F";
 					player="PLAY CDG";
@@ -5872,7 +5806,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.21967,5,1508.8545};
-					id=371;
+					id=365;
 					side="GUER";
 					vehicle="I_support_MG_F";
 					player="PLAY CDG";
@@ -5892,7 +5826,7 @@ class Mission
 				class Item0
 				{
 					position[]={596.59564,5,1498.8643};
-					id=372;
+					id=366;
 					side="GUER";
 					vehicle="I_Soldier_AAT_F";
 					player="PLAY CDG";
@@ -5906,7 +5840,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.1347,5,1497.5752};
-					id=373;
+					id=367;
 					side="GUER";
 					vehicle="I_Soldier_AT_F";
 					player="PLAY CDG";
@@ -5926,7 +5860,7 @@ class Mission
 				class Item0
 				{
 					position[]={596.75482,5,1486.5479};
-					id=374;
+					id=368;
 					side="GUER";
 					vehicle="I_Soldier_AAT_F";
 					player="PLAY CDG";
@@ -5940,7 +5874,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.29388,5,1485.2588};
-					id=375;
+					id=369;
 					side="GUER";
 					vehicle="I_Soldier_AT_F";
 					player="PLAY CDG";
@@ -5960,7 +5894,7 @@ class Mission
 				class Item0
 				{
 					position[]={596.7558,5,1474.4287};
-					id=376;
+					id=370;
 					side="GUER";
 					vehicle="I_support_AMort_F";
 					player="PLAY CDG";
@@ -5974,7 +5908,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.29486,5,1473.1396};
-					id=377;
+					id=371;
 					side="GUER";
 					vehicle="I_support_Mort_F";
 					player="PLAY CDG";
@@ -5994,7 +5928,7 @@ class Mission
 				class Item0
 				{
 					position[]={596.54486,5,1462.4287};
-					id=378;
+					id=372;
 					side="GUER";
 					vehicle="I_Soldier_AAA_F";
 					player="PLAY CDG";
@@ -6008,7 +5942,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.08392,5,1461.1396};
-					id=379;
+					id=373;
 					side="GUER";
 					vehicle="I_Soldier_AA_F";
 					player="PLAY CDG";
@@ -6028,7 +5962,7 @@ class Mission
 				class Item0
 				{
 					position[]={595.92059,5,1448.2021};
-					id=380;
+					id=374;
 					side="GUER";
 					vehicle="I_Spotter_F";
 					player="PLAY CDG";
@@ -6042,7 +5976,7 @@ class Mission
 				class Item1
 				{
 					position[]={598.45966,5,1446.9131};
-					id=381;
+					id=375;
 					side="GUER";
 					vehicle="I_Sniper_F";
 					player="PLAY CDG";
@@ -6062,7 +5996,7 @@ class Mission
 				class Item0
 				{
 					position[]={596.33368,5,1435.0713};
-					id=382;
+					id=376;
 					side="GUER";
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
@@ -6075,7 +6009,7 @@ class Mission
 				class Item1
 				{
 					position[]={599.0993,5,1433.1533};
-					id=383;
+					id=377;
 					side="GUER";
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
@@ -6087,7 +6021,7 @@ class Mission
 				class Item2
 				{
 					position[]={601.4118,5,1433.0967};
-					id=384;
+					id=378;
 					side="GUER";
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
@@ -6099,7 +6033,7 @@ class Mission
 				class Item3
 				{
 					position[]={603.6911,5,1433.0986};
-					id=385;
+					id=379;
 					side="GUER";
 					vehicle="I_engineer_F";
 					player="PLAY CDG";
@@ -6115,48 +6049,15 @@ class Mission
 			side="GUER";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
-					position[]={598.78729,5,1410.5854};
-					id=386;
+					position[]={606.58514,5,1408.5659};
+					id=380;
 					side="GUER";
 					vehicle="I_soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={603.93964,5,1408.5659};
-					id=387;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={606.58514,5,1408.5659};
-					id=388;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={601.36542,5,1408.5659};
-					id=389;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="INDFOR Join In Progress";
@@ -6168,48 +6069,15 @@ class Mission
 			side="WEST";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
 					position[]={588.72986,5,2441.4019};
-					id=390;
+					id=381;
 					side="WEST";
 					vehicle="B_Soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={591.6546,5,2439.4604};
-					id=391;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={594.98761,5,2439.4995};
-					id=392;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="BLUFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={598.33917,5,2439.6011};
-					id=393;
-					side="WEST";
-					vehicle="B_Soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="BLUFOR Join In Progress";
@@ -6221,48 +6089,15 @@ class Mission
 			side="GUER";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
 					position[]={598.57623,5,1399.5615};
-					id=394;
+					id=382;
 					side="GUER";
 					vehicle="I_soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={603.72858,5,1397.542};
-					id=395;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={606.37408,5,1397.542};
-					id=396;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="INDFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={601.15436,5,1397.542};
-					id=397;
-					side="GUER";
-					vehicle="I_soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="INDFOR Join In Progress";
@@ -6274,48 +6109,15 @@ class Mission
 			side="EAST";
 			class Vehicles
 			{
-				items=4;
+				items=1;
 				class Item0
 				{
-					position[]={602.4986,5,406.62549};
-					id=398;
+					position[]={610.24463,5,404.28955};
+					id=383;
 					side="EAST";
 					vehicle="O_Soldier_F";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item1
-				{
-					position[]={604.49078,5,404.23096};
-					id=399;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item2
-				{
-					position[]={607.39697,5,404.23096};
-					id=400;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
-					skill=0.60000002;
-					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
-					description="OPFOR Join In Progress";
-				};
-				class Item3
-				{
-					position[]={610.24463,5,404.28955};
-					id=401;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAY CDG";
 					skill=0.60000002;
 					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
 					description="OPFOR Join In Progress";
@@ -6331,7 +6133,7 @@ class Mission
 				class Item0
 				{
 					position[]={497.15387,5,3355.9897};
-					id=402;
+					id=384;
 					side="LOGIC";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
@@ -6350,7 +6152,7 @@ class Mission
 				class Item0
 				{
 					position[]={500.05035,5,3355.9966};
-					id=403;
+					id=385;
 					side="LOGIC";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
@@ -6369,7 +6171,7 @@ class Mission
 				class Item0
 				{
 					position[]={502.83353,5,3355.9795};
-					id=404;
+					id=386;
 					side="LOGIC";
 					vehicle="HeadlessClient_F";
 					player="PLAY CDG";
@@ -6398,7 +6200,7 @@ class Mission
 							typeName="EnableTeamManagement";
 						};
 					};
-					id=405;
+					id=387;
 					side="LOGIC";
 					vehicle="ACE_ModuleInteraction";
 					leader=1;
@@ -6444,7 +6246,7 @@ class Mission
 							typeName="MapShowCursorCoordinates";
 						};
 					};
-					id=406;
+					id=388;
 					side="LOGIC";
 					vehicle="ACE_ModuleMap";
 					leader=1;
@@ -6544,7 +6346,7 @@ class Mission
 							typeName="keepLocalSettingsSynced";
 						};
 					};
-					id=407;
+					id=389;
 					side="LOGIC";
 					vehicle="ACE_moduleMedicalSettings";
 					leader=1;
@@ -6602,7 +6404,7 @@ class Mission
 							typeName="DefaultRadio_Four";
 						};
 					};
-					id=408;
+					id=390;
 					side="LOGIC";
 					vehicle="acre_api_basicMissionSetup";
 					leader=1;
@@ -6642,7 +6444,7 @@ class Mission
 							typeName="Interference";
 						};
 					};
-					id=409;
+					id=391;
 					side="LOGIC";
 					vehicle="acre_api_DifficultySettings";
 					leader=1;
@@ -6694,7 +6496,7 @@ class Mission
 							typeName="revealMines";
 						};
 					};
-					id=410;
+					id=392;
 					side="LOGIC";
 					vehicle="ace_zeus_moduleSettings";
 					leader=1;
@@ -6728,7 +6530,7 @@ class Mission
 							typeName="moduleViewDistanceLimit";
 						};
 					};
-					id=411;
+					id=393;
 					side="LOGIC";
 					vehicle="ace_viewdistance_ModuleSettings";
 					leader=1;
@@ -6762,12 +6564,372 @@ class Mission
 							typeName="allowSurrender";
 						};
 					};
-					id=412;
+					id=394;
 					side="LOGIC";
 					vehicle="ace_captives_moduleSettings";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
+				};
+			};
+		};
+		class Item137
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={588.72992,5,2451.8706};
+					id=395;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item138
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={591.65472,5,2449.9292};
+					id=396;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item139
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={594.98773,5,2449.9683};
+					id=397;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item140
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={598.33917,5,2439.6011};
+					id=398;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item141
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={594.98761,5,2439.4995};
+					id=399;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item142
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={591.6546,5,2439.4604};
+					id=400;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpBLUFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="BLUFOR Join In Progress";
+				};
+			};
+		};
+		class Item143
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={606.37408,5,1397.542};
+					id=401;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item144
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={603.72858,5,1397.542};
+					id=402;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item145
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={601.15436,5,1397.542};
+					id=403;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item146
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={598.78729,5,1410.5854};
+					id=404;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item147
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={601.36542,5,1408.5659};
+					id=405;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item148
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={603.93964,5,1408.5659};
+					id=406;
+					side="GUER";
+					vehicle="I_soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpINDFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="INDFOR Join In Progress";
+				};
+			};
+		};
+		class Item149
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={602.4986,5,406.62549};
+					id=407;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
+				};
+			};
+		};
+		class Item150
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={604.49078,5,404.23096};
+					id=408;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
+				};
+			};
+		};
+		class Item151
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={607.39697,5,404.23096};
+					id=409;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
+				};
+			};
+		};
+		class Item152
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={610.72559,5,415.34131};
+					id=410;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
+				};
+			};
+		};
+		class Item153
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={607.87793,5,415.28271};
+					id=411;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
+				};
+			};
+		};
+		class Item154
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={604.97174,5,415.28271};
+					id=412;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="GrpOPFOR_JIP = group this; [""r"",this] call f_fnc_assignGear;";
+					description="OPFOR Join In Progress";
 				};
 			};
 		};
