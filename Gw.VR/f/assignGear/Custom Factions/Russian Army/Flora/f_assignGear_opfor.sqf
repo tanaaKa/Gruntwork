@@ -207,7 +207,7 @@ _ghillie = ["sn","sp"];
 
 // Infantry
 _baseUniform = ["rhs_uniform_flora_patchless"];
-_baseHelmet = ["rhs_6b26"];
+_baseHelmet = ["rhs_6b27m"];
 _baseRig = ["rhs_6b23_6sh92"];
 _baseGlasses = [];
 
