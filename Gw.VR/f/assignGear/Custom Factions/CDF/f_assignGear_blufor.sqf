@@ -62,6 +62,7 @@ _scope1 = "rhs_acc_ekp1";			// Short Range
 _scope2 = "rhs_acc_1p63";			// Medium Range
 _scope3 = "rhs_acc_pso1m2";			// Medium - Long Range
 _scope4 = "rhs_acc_pso1m2";			// Long Range
+_scope5 = "rhs_acc_pgo7v";			// Launcher Scope
 
 _bipod1 = "";						// Light Machine Gun
 _bipod2 = "";						// Medium Machine Gun
@@ -472,7 +473,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
-		_attachments = [_attach1,_muzzle];
+		_unit addSecondaryWeaponItem _scope5;
+		_attachments = [_attach1];
 	};
 
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER

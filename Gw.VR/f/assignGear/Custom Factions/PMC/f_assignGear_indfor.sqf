@@ -61,6 +61,7 @@ _scope1 = "rhsusf_acc_eotech_552";		// Short Range
 _scope2 = "rhsusf_acc_compm4";			// Medium Range
 _scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
 _scope4 = "rhs_acc_pso1m2";				// Long Range
+_scope5 = "rhs_acc_pgo7v";				// Launcher Scope
 
 _bipod1 = "";							// Light Machine Gun
 _bipod2 = "";							// Medium Machine Gun
@@ -471,6 +472,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
+		_unit addSecondaryWeaponItem _scope5;
 		_attachments = [_attach1];
 	};
 
