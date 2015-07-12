@@ -474,7 +474,7 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
 		_unit addSecondaryWeaponItem _scope5;
-		_attachments = [_attach1];
+		_attachments = [_attach1,_muzzle];
 	};
 
 // LOADOUT: MEDIUM AT ASSISTANT GUNNER
