@@ -541,9 +541,9 @@ switch (_typeofUnit) do
 	};
 
 // LOADOUT: MEDIUM SAM GUNNER
-	case "msamg":
+	case "samg":
 	{
-		["msamg"] call _backpack;
+		["samg"] call _backpack;
 		_unit addmagazines [_carbinemag,7];
 		_unit addmagazines [_carbinemag_tr,2];
 		_unit addweapon _carbine;
@@ -554,7 +554,7 @@ switch (_typeofUnit) do
 	};
 
 // LOADOUT: MEDIUM SAM ASSISTANT GUNNER
-	case "msamag":
+	case "samag":
 	{
 		_unit addmagazines [_carbinemag,7];
 		_unit addmagazines [_carbinemag_tr,2];
@@ -562,7 +562,7 @@ switch (_typeofUnit) do
 		_unit addWeapon "ACE_Vector";
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		["msamag"] call _backpack;
+		["samag"] call _backpack;
 		_attachments = [_attach1];
 	};
 
