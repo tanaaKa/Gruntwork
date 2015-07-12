@@ -206,7 +206,7 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["rhs_uniform_FROG01_wd"];
 _baseHelmet = ["rhsusf_lwh_helmet_marpatwd"];
-_baseRig = ["MNP_Vest_NZ_1","MNP_Vest_NZ_2"];
+_baseRig = ["MNP_Vest_NZ_1"];
 _baseGlasses = [];
 
 // Pilot
