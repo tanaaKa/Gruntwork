@@ -289,7 +289,7 @@ _backpack = {
 	if (count _this > 1) then {_loadout = _this select 1};
 	switch (_typeofBackPack) do
 	{
-		#include "f_assignGear_blufor_b.sqf";
+		#include "f_assignGear_indfor_b.sqf";
 	};
 };
 
