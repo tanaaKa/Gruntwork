@@ -23,8 +23,8 @@
 //		hatag		- heavy AT assistant (deployable)
 //		mtrg		- mortar gunner (deployable)
 //		mtrag		- mortar assistant (deployable)
-//		samg		- SAM gunner
-//		samag		- SAM assistant gunner
+//		msamg		- SAM gunner
+//		msamag		- SAM assistant gunner
 //		sn			- sniper
 //		sp			- spotter (for sniper)
 //		vc			- vehicle commander
