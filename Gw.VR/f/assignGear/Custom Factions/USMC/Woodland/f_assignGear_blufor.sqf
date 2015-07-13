@@ -188,7 +188,7 @@ _SNrifle = "rhs_weap_sr25";
 _SNrifleMag = "rhsusf_20Rnd_762x51_m118_special_Mag";
 
 // Engineer items
-_ATmine = "rhs_mine_M19_mag";
+_ATmine = "ATMine_Range_Mag";
 _satchel = "DemoCharge_Remote_Mag";
 _APmine = "ClaymoreDirectionalMine_Remote_Mag";
 
