@@ -760,26 +760,25 @@ switch (_typeofUnit) do
 		_attachments = [_attach1,_scope3,_bipod3];
 	};
 
-// CARGO: CAR - room for 10 weapons and 50 cargo items
-	case "v_car":
-	{
+// ====================================================================================
+
+// CRATE: Small, ammo for 1 fireteam
+	case "crate_small":
+{
 		clearWeaponCargoGlobal _unit;
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addWeaponCargoGlobal [_carbine, 1];
-		_unit addMagazineCargoGlobal [_riflemag, 8];
-		_unit addMagazineCargoGlobal [_glriflemag, 8];
-		_unit addMagazineCargoGlobal [_carbinemag, 8];
+		_unit addMagazineCargoGlobal [_riflemag, 10];
+		_unit addMagazineCargoGlobal [_glriflemag, 10];
 		_unit addMagazineCargoGlobal [_armag, 5];
-		_unit addMagazineCargoGlobal [_matmag1, 1];
+		_unit addMagazineCargoGlobal [_carbinemag, 10];
+		_unit addMagazineCargoGlobal [_glmag, 10];
+		_unit addMagazineCargoGlobal [_glsmokewhite, 5];
 		_unit addMagazineCargoGlobal [_grenade, 4];
 		_unit addMagazineCargoGlobal [_smokegrenade, 4];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 2];
-		_unit addMagazineCargoGlobal [_glmag, 4];
-		_unit addMagazineCargoGlobal [_glsmokewhite, 4];
-		_unit addItemCargoGlobal [_firstaid,4];
-	};
+		_unit addMagazineCargoGlobal [_smokegrenadegreen, 4];
+};
 
 // CRATE: Medium, ammo for 1 squad
 	case "crate_med":
@@ -788,18 +787,16 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_riflemag, 15];
-		_unit addMagazineCargoGlobal [_glriflemag, 20];
+		_unit addMagazineCargoGlobal [_riflemag, 30];
+		_unit addMagazineCargoGlobal [_glriflemag, 30];
 		_unit addMagazineCargoGlobal [_armag, 15];
-		_unit addMagazineCargoGlobal [_carbinemag, 20];
-		_unit addMagazineCargoGlobal [_glmag, 20];
-		_unit addMagazineCargoGlobal [_glsmokewhite,16];
+		_unit addMagazineCargoGlobal [_carbinemag, 30];
+		_unit addMagazineCargoGlobal [_glmag, 30];
+		_unit addMagazineCargoGlobal [_glsmokewhite, 15];
 		_unit addMagazineCargoGlobal [_matmag1, 6];
-		_unit addMagazineCargoGlobal [_grenade, 25];
-		_unit addMagazineCargoGlobal [_mgrenade, 25];
-		_unit addMagazineCargoGlobal [_smokegrenade, 25];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 6];
-		_unit addItemCargoGlobal [_firstaid, 25];
+		_unit addMagazineCargoGlobal [_grenade, 12];
+		_unit addMagazineCargoGlobal [_smokegrenade, 12];
+		_unit addMagazineCargoGlobal [_smokegrenadegreen, 12];
 };
 
 // CRATE: Large, ammo for 1 platoon
@@ -809,31 +806,17 @@ switch (_typeofUnit) do
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_riflemag, 45];
-		_unit addMagazineCargoGlobal [_glriflemag, 60];
+		_unit addMagazineCargoGlobal [_riflemag, 90];
+		_unit addMagazineCargoGlobal [_glriflemag, 90];
 		_unit addMagazineCargoGlobal [_armag, 45];
-		_unit addMagazineCargoGlobal [_carbinemag, 60];
-		_unit addMagazineCargoGlobal [_glmag, 60];
-		_unit addMagazineCargoGlobal [_glsmokewhite,50];
-		_unit addMagazineCargoGlobal [_matmag1, 20];
-		_unit addMagazineCargoGlobal [_grenade, 75];
-		_unit addMagazineCargoGlobal [_mgrenade, 75];
-		_unit addMagazineCargoGlobal [_smokegrenade, 75];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 20];
-		_unit addItemCargoGlobal [_firstaid, 75];
+		_unit addMagazineCargoGlobal [_carbinemag, 90];
+		_unit addMagazineCargoGlobal [_glmag, 90];
+		_unit addMagazineCargoGlobal [_glsmokewhite, 45];
+		_unit addMagazineCargoGlobal [_matmag1, 18];
+		_unit addMagazineCargoGlobal [_grenade, 36];
+		_unit addMagazineCargoGlobal [_smokegrenade, 36];
+		_unit addMagazineCargoGlobal [_smokegrenadegreen, 36];
 };
-
-// LOADOUT: DEFAULT/UNDEFINED (use RIFLEMAN)
-   default
-   {
-		_unit addmagazines [_riflemag,7];
-		_unit addweapon _rifle;
-
-		_unit selectweapon primaryweapon _unit;
-
-		if (true) exitwith {player globalchat format ["DEBUG (f\assignGear\f_assignGear_nato.sqf): Unit = %1. Gear template %2 does not exist, used Rifleman instead.",_unit,_typeofunit]};
-   };
-
 
 // ====================================================================================
 
