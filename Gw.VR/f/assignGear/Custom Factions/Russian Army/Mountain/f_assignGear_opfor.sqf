@@ -414,7 +414,7 @@ switch (_typeofUnit) do
 // LOADOUT: MEDIUM MG GUNNER
 	case "mmgg":
 	{
-		_unit addmagazines [_MMGmag,2];
+		_unit addmagazines [_MMGmag,3];
 		_unit addweapon _MMG;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
