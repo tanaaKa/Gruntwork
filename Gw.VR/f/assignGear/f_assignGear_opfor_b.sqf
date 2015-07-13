@@ -25,7 +25,7 @@ case "ar":
 {	
 		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_sparebarrel, 1];
+		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 2];
 };
 
@@ -71,7 +71,7 @@ case "mmg":
 {	
 		_unit addBackpack _bagsmall;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_sparebarrel, 1];
+		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
 };
 
