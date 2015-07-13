@@ -90,8 +90,8 @@ case "mmgag":
 {
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
+		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
 };
 
 // BACKPACK: MAT GUNNER (MATG)
