@@ -118,7 +118,7 @@ case "hatg":
 {
 	_unit addBackpack _baglarge;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 1];
+	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 3];
 };
 
 // LOADOUT: HEAVY AT ASSISTANT GUNNER (HATAG)
@@ -126,7 +126,7 @@ case "hatag":
 {
 	_unit addBackpack _baglarge;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 1];
+	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 3];
 };
 
 // BACKPACK: MORTAR GUNNER (MTRG)
@@ -146,7 +146,7 @@ case "msamg":
 {
 	_unit addBackpack _bagmedium;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 1];
+	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 3];
 };
 
 // BACKPACK: SAM ASSISTANT GUNNER (SAM)
@@ -154,7 +154,7 @@ case "msamag":
 {
 	_unit addBackpack _baglarge;
 	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 2];
+	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 3];
 };
 
 // BACKPACK: ENGINEER (DEMO)
