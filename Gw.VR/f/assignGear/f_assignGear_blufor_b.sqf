@@ -25,7 +25,8 @@ case "ar":
 {	
 		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_sparebarrel, 1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 2];
 };
 
 // BACKPACK: AAR
