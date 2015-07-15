@@ -212,7 +212,7 @@ _baseGlasses = [];
 // Pilot
 _pilotUniform = ["U_I_HeliPilotCoveralls"];
 _pilotHelmet = ["H_PilotHelmetHeli_I"];
-_pilotRig = ["V_TacVest_oli"];
+_pilotRig = ["V_TacVest_camo"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot
