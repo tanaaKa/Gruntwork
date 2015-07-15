@@ -207,7 +207,7 @@ _ghillie = ["sn","sp"];
 
 // Infantry
 _baseUniform = ["LOP_U_CDF_Fatigue_01"];
-_baseHelmet = ["LOP_H_6B27M_CDF"];
+_baseHelmet = ["LOP_H_6B27M_CDF","LOP_H_6B27M_ess_CDF"];
 _baseRig = ["LOP_V_6B23_Rifleman_OLV"];
 _baseGlasses = [];
 
