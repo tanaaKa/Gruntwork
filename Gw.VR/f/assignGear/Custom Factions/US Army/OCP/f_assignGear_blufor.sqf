@@ -128,9 +128,9 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "B_AssaultPack_rgr";				// small
+_bagsmall = "CUP_B_AssaultPack_Coyote";			// small
 _bagmedium = "rhsusf_assault_eagleaiii_ocp";	// medium
-_baglarge =  "B_Carryall_cbr"; 					// large
+_baglarge =  "CUP_B_USPack_Coyote"; 			// large
 _baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
 _baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
 _baghatg = "RDS_Tow_Gun_Bag";					// used by Heavy AT gunner
