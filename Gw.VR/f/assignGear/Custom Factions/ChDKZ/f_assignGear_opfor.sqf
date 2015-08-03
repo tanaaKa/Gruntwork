@@ -92,8 +92,8 @@ _glriflemag_tr = "rhs_30Rnd_762x39mm_tracer";
 _glmag = "rhs_VOG25";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "CUP_arifle_AKS74U";
-_smgmag = "CUP_30Rnd_545x39_AK_M";
+_smg = "hlc_rifle_aks74u";
+_smgmag = "hlc_30Rnd_545x39_t_ak";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "rhs_GRD40_White";
@@ -128,9 +128,9 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "CUP_B_CivPack_WDL";			// small
-_bagmedium = "CUP_B_AlicePack_Khaki";		// medium
-_baglarge =  "CUP_B_ACRPara_m95"; 			// large
+_bagsmall = "rhs_sidor";					// small
+_bagmedium = "rhs_assault_umbts";			// medium
+_baglarge =  "B_Carryall_oli"; 				// large
 _baghmgg = "RHS_NSV_Gun_Bag";				// used by Heavy MG gunner
 _baghmgag = "RHS_NSV_Tripod_Bag";			// used by Heavy MG assistant gunner
 _baghatg = "RDS_Metis_Gun_Bag";				// used by Heavy AT gunner
@@ -153,9 +153,9 @@ _rangetable = "ACE_RangeTable_82mm";		// for mortar gunners
 // UNIQUE, ROLE-SPECIFIC EQUIPMENT
 
 // Automatic Rifleman
-_AR = "CUP_arifle_RPK74";
-_ARmag = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-_ARmag_tr = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+_AR = "hlc_rifle_rpk";
+_ARmag = "hlc_75Rnd_762x39_m_rpk";
+_ARmag_tr = "hlc_75Rnd_762x39_m_rpk";
 
 // Medium MG
 _MMG = "rhs_weap_pkm";
@@ -176,8 +176,8 @@ _SAM = "rhs_weap_igla";
 _SAMmag = "rhs_mag_9k38_rocket";
 
 // Heavy AT
-_HAT = "CUP_launch_Metis";
-_HATmag = "CUP_AT13_M";
+_HAT = "launch_I_Titan_short_F";
+_HATmag = "Titan_AT";
 
 // Marksman Rifle
 _DMrifle = "rhs_weap_svds";

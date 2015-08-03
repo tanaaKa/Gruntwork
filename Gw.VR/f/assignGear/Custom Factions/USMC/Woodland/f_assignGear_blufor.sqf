@@ -61,7 +61,7 @@ _scope1 = "rhsusf_acc_eotech_552";		// Short Range
 _scope2 = "rhsusf_acc_compm4";			// Medium Range
 _scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
 _scope4 = "rhsusf_acc_LEUPOLDMK4_2";	// Long Range
-_scope5 = "CUP_optic_SMAW_Scope";		// Launcher Scope
+_scope5 = "rhs_acc_pgo7v";				// Launcher Scope
 
 _bipod1 = "";							// Light Machine Gun
 _bipod2 = "";							// Medium Machine Gun
@@ -92,8 +92,8 @@ _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "CUP_smg_MP5A5";
-_smgmag = "CUP_30Rnd_9x19_MP5";
+_smg = "hlc_smg_mp5a3";
+_smgmag = "hlc_30Rnd_9x19_B_MP5";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "1Rnd_Smoke_Grenade_shell";
@@ -167,9 +167,9 @@ _RAT = "rhs_weap_M136";
 _RATmag = "rhs_m136_mag";
 
 // Medium AT
-_MAT = "CUP_launch_Mk153Mod0";
-_MATmag1 = "CUP_SMAW_HEAA_M_N";
-_MATmag2 = "CUP_SMAW_HEDP_M_N";
+_MAT = "rhs_weap_rpg7";
+_MATmag1 = "rhs_rpg7_PG7VL_mag";
+_MATmag2 = "rhs_rpg7_OG7V_mag";
 
 // Surface Air
 _SAM = "rhs_weap_fim92";
@@ -207,7 +207,7 @@ _ghillie = ["sn","sp"];
 // Infantry
 _baseUniform = ["rhs_uniform_FROG01_wd"];
 _baseHelmet = ["rhsusf_lwh_helmet_marpatwd"];
-_baseRig = ["MNP_Vest_NZ_1"];
+_baseRig = ["rhsusf_spc"];
 _baseGlasses = [];
 
 // Pilot

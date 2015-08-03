@@ -61,7 +61,7 @@ _scope1 = "rhsusf_acc_eotech_552";		// Short Range
 _scope2 = "rhsusf_acc_compm4";			// Medium Range
 _scope3 = "rhsusf_acc_LEUPOLDMK4";		// Medium - Long Range
 _scope4 = "rhsusf_acc_LEUPOLDMK4_2";	// Long Range
-_scope5 = "CUP_optic_MAAWS_Scope";		// Launcher Scope
+_scope5 = "rhs_acc_pgo7v";				// Launcher Scope
 
 _bipod1 = "";							// Light Machine Gun
 _bipod2 = "";							// Medium Machine Gun
@@ -92,8 +92,8 @@ _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
-_smg = "CUP_smg_MP5A5";
-_smgmag = "CUP_30Rnd_9x19_MP5";
+_smg = "hlc_smg_mp5a3";
+_smgmag = "hlc_30Rnd_9x19_B_MP5";
 
 // Smoke for FTLs, Squad Leaders, etc
 _glsmokewhite = "1Rnd_Smoke_Grenade_shell";
@@ -128,9 +128,9 @@ _chemyellow =  "Chemlight_yellow";
 _chemblue = "Chemlight_blue";
 
 // Backpacks
-_bagsmall = "CUP_B_AssaultPack_Coyote";			// small
-_bagmedium = "rhsusf_assault_eagleaiii_ucp";	// medium
-_baglarge =  "CUP_B_USPack_Coyote"; 			// large
+_bagsmall = "B_AssaultPack_cbr";				// small
+_bagmedium = "rhsusf_assault_eagleaiii_ocp";	// medium
+_baglarge =  "B_Carryall_cbr"; 					// large
 _baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
 _baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
 _baghatg = "RDS_Tow_Gun_Bag";					// used by Heavy AT gunner
@@ -167,9 +167,9 @@ _RAT = "rhs_weap_M136";
 _RATmag = "rhs_m136_mag";
 
 // Medium AT
-_MAT = "CUP_launch_MAAWS";
-_MATmag1 = "CUP_MAAWS_HEAT_M";
-_MATmag2 = "CUP_MAAWS_HEDP_M";
+_MAT = "rhs_weap_rpg7";
+_MATmag1 = "rhs_rpg7_PG7VL_mag";
+_MATmag2 = "rhs_rpg7_OG7V_mag";
 
 // Surface Air
 _SAM = "rhs_weap_fim92";
