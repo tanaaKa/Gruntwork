@@ -55,7 +55,7 @@
 _attach1 = "";					// IR Laser
 _attach2 = "";					// Flashlight
 
-_silencer1 = "rhs_acc_pbs1";	// Primary
+_silencer1 = "";				// Primary
 
 _scope1 = "";					// Short Range
 _scope2 = "";					// Medium Range
@@ -76,29 +76,29 @@ _attachments = [_attach1,_scope1]; // The default attachment set for most units,
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "rhs_weap_akm";
-_riflemag = "rhs_30Rnd_762x39mm";
-_riflemag_tr = "rhs_30Rnd_762x39mm_tracer";
+_rifle = "hlc_rifle_ak47";
+_riflemag = "hlc_30Rnd_762x39_b_ak";
+_riflemag_tr = "hlc_30Rnd_762x39_t_ak";
 
 // Standard Carabineer (Medic, Rifleman (AT), MAT Gunner, MTR Gunner, Carabineer)
-_carbine = "rhs_weap_akms";
-_carbinemag = "rhs_30Rnd_762x39mm";
-_carbinemag_tr = "rhs_30Rnd_762x39mm_tracer";
+_carbine = "hlc_rifle_ak74_dirty";
+_carbinemag = "hlc_30Rnd_545x39_B_AK";
+_carbinemag_tr = "hlc_30Rnd_545x39_t_ak";
 
 // Rifle with GL and HE grenades (CO, SL, FTLs)
-_glrifle = "rhs_weap_akm_gp25";
-_glriflemag = "rhs_30Rnd_762x39mm";
-_glriflemag_tr = "rhs_30Rnd_762x39mm_tracer";
-_glmag = "rhs_VOG25";
+_glrifle = "hlc_rifle_akmgl";
+_glriflemag = "hlc_30Rnd_762x39_b_ak";
+_glriflemag_tr = "hlc_30Rnd_762x39_t_ak";
+_glmag = "hlc_VOG25_AK";
 
 // Standard Submachine Gun/Personal Defence Weapon (Aircraft Pilot, Submachinegunner)
 _smg = "hlc_rifle_aks74u";
-_smgmag = "hlc_30Rnd_545x39_t_ak";
+_smgmag = "hlc_30Rnd_545x39_B_AK";
 
 // Smoke for FTLs, Squad Leaders, etc
-_glsmokewhite = "rhs_GRD40_White";
-_glsmokegreen = "rhs_GRD40_Green";
-_glsmokered = "rhs_GRD40_Red";
+_glsmokewhite = "hlc_GRD_White";
+_glsmokegreen = "hlc_GRD_green";
+_glsmokered = "hlc_GRD_Red";
 
 // Flares for FTLs, Squad Leaders, etc
 _glflarewhite = "rhs_VG40OP_white";
