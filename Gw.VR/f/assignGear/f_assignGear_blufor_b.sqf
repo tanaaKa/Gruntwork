@@ -75,6 +75,15 @@ case "mmg":
 		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
 };
 
+// BACKPACK: MMG ASSISTANT GUNNER (MMGAG)
+case "mmgag":
+{
+		_unit addBackpack _baglarge;
+		clearMagazineCargoGlobal (unitBackpack _unit);
+		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
+		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
+};
+
 // LOADOUT: HEAVY MG GUNNER (HMGG)
 case "hmgg":
 {
@@ -85,15 +94,6 @@ case "hmgg":
 case "hmgag":
 {
 	_unit addBackpack _baghmgag;
-};
-
-// BACKPACK: MMG ASSISTANT GUNNER (MMGAG)
-case "mmgag":
-{
-		_unit addBackpack _baglarge;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
 };
 
 // BACKPACK: MAT GUNNER (MATG)
