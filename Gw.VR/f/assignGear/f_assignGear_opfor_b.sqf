@@ -14,10 +14,10 @@ case "g":
 {	
 		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 10];
-		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokegreen, 4];
-		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokered, 4];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 11];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 5];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokegreen, 5];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokered, 5];
 };
 
 // BACKPACK: AR
