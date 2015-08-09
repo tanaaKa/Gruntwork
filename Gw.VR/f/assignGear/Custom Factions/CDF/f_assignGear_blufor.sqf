@@ -352,7 +352,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenadegreen,2];
 		_unit linkItem "ItemGPS";
 		["m"] call _backpack;
-		_attachments = [_attach1];
+		_attachments = [_attach1,_muzzle];
 	};
 
 // LOADOUT: FIRE TEAM LEADER
@@ -386,9 +386,9 @@ switch (_typeofUnit) do
 // LOADOUT: ASSISTANT AUTOMATIC RIFLEMAN
 	case "aar":
 	{
-		_unit addmagazines [_riflemag,7];
-		_unit addmagazines [_riflemag_tr,2];
-		_unit addweapon _rifle;
+		_unit addmagazines [_carbinemag,7];
+		_unit addmagazines [_carbinemag_tr,2];
+		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "Binocular";
@@ -399,14 +399,14 @@ switch (_typeofUnit) do
 // LOADOUT: RIFLEMAN (AT)
 	case "rat":
 	{
-		_unit addmagazines [_carbinemag,7];
-		_unit addmagazines [_carbinemag_tr,2];
-		_unit addweapon _carbine;
+		_unit addmagazines [_riflemag,7];
+		_unit addmagazines [_riflemag_tr,2];
+		_unit addweapon _rifle;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_RATmag,1];
 		_unit addweapon _RAT;
-		_attachments = [_attach1];
+		_attachments = [_attach1,_muzzle];
 	};
 
 // LOADOUT: MEDIUM MG GUNNER
