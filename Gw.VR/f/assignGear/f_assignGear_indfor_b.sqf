@@ -41,7 +41,7 @@ case "aar":
 // BACKPACK: RIFLEMAN AT (RAT)
 case "rat":
 {
-		_unit addBackpack _bagsmall;
+		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 };
 
@@ -69,7 +69,7 @@ case "car":
 // BACKPACK: MMG GUNNER (MMG)
 case "mmg":
 {	
-		_unit addBackpack _bagsmall;
+		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
@@ -145,7 +145,7 @@ case "mtrag":
 // BACKPACK: SAM GUNNER (SAM)
 case "msamg":
 {
-	_unit addBackpack _bagmedium;
+	_unit addBackpack _baglarge;
 	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 3];
 };
