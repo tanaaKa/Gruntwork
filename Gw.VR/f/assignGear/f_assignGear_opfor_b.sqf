@@ -48,7 +48,7 @@ case "rat":
 // BACKPACK: DESIGNATED MARKSMAN (DM)
 case "dm":
 {
-		_unit addBackpack _bagsmall;
+		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 };
 
