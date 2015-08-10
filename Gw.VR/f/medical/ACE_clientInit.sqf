@@ -10,7 +10,7 @@ private "_typeOfUnit";
 _typeOfUnit = player getVariable "f_var_assignGear";
 
 // Remove pre-assigned medical items
-{player removeItems _x} forEach ["FirstAidKit","Medikit","ACE_fieldDressing","ACE_morphine","ACE_epinephrine","ACE_bloodIV_500"];
+{player removeItems _x} forEach ["FirstAidKit","Medikit","ACE_fieldDressing","ACE_morphine","ACE_epinephrine","ACE_bloodIV"];
 
 // Add basic items to all units
 {player addItem "ACE_fieldDressing"} forEach [1,2,3,4,5];
@@ -22,5 +22,5 @@ if (_typeOfUnit == "m") then
 		(unitBackpack player) addItemCargoGlobal ["ACE_fieldDressing", 25];
 		(unitBackpack player) addItemCargoGlobal ["ACE_morphine", 15];
 		(unitBackpack player) addItemCargoGlobal ["ACE_epinephrine",   15];
-		(unitBackpack player) addItemCargoGlobal ["ACE_bloodIV_500", 4];
+		(unitBackpack player) addItemCargoGlobal ["ACE_bloodIV", 5];
 	};
