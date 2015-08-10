@@ -130,7 +130,7 @@ _chemblue = "Chemlight_blue";
 // Backpacks
 _bagsmall = "B_AssaultPack_cbr";				// small
 _bagmedium = "rhsusf_assault_eagleaiii_ocp";	// medium
-_baglarge =  "B_Carryall_cbr"; 					// large
+_baglarge = "B_Carryall_cbr"; 					// large
 _baghmgg = "RHS_M2_Gun_Bag";					// used by Heavy MG gunner
 _baghmgag = "RHS_M2_MiniTripod_Bag";			// used by Heavy MG assistant gunner
 _baghatg = "RDS_Tow_Gun_Bag";					// used by Heavy AT gunner
@@ -143,8 +143,6 @@ _sparebarrel = "ACE_SpareBarrel";			// for ARs and MMGs
 _maptools = "ACE_MapTools";					// for SLs, DCs, and COs
 _defusalkit = "ACE_DefusalKit";				// for engineers
 _clacker = "ACE_Clacker";					// for engineers
-_spotterscope = "ACE_SpottingScope";		// for spotters
-_tripod = "ACE_Tripod";						// for spotters
 _rangecard = "ACE_RangeCard";				// for spotters
 _rangetable = "ACE_RangeTable_82mm";		// for mortar gunners
 
@@ -586,7 +584,6 @@ switch (_typeofUnit) do
 		_unit addWeapon "ACE_Vector";
 		_unit addItem _rangecard;
 		_unit linkItem "ItemGPS";
-		["sp"] call _backpack;
 		_attachments = [_attach1,_scope2];
 	};
 

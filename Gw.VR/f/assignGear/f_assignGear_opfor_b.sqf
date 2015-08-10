@@ -176,15 +176,6 @@ case "engm":
 		(unitBackpack _unit) addMagazineCargoGlobal [_ATmine,2];
 };
 
-// BACKPACK: SPOTTER
-case "sp":
-{
-	_unit addBackpack _bagsmall;
-	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addItemCargoGlobal [_spotterscope,1];
-	(unitBackpack _unit) addItemCargoGlobal [_tripod,1];
-};
-
 // BACKPACK: VEHICLE DRIVERS
 case "cc":
 {
