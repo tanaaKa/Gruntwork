@@ -186,7 +186,7 @@ _SNrifleMag = "20Rnd_762x51_Mag";
 
 // Engineer items
 _ATmine = "ATMine_Range_Mag";
-_satchel = "DemoCharge_Remote_Mag";
+_satchel = "SatchelCharge_Remote_Mag";
 _APmine = "APERSBoundingMine_Range_Mag";
 
 // ====================================================================================

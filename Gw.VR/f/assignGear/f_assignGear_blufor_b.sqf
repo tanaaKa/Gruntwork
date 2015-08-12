@@ -163,7 +163,6 @@ case "eng":
 {
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addItemCargoGlobal ["ToolKit",1];
 		(unitBackpack _unit) addItemCargoGlobal [_satchel,4];
 };
 
@@ -172,8 +171,7 @@ case "engm":
 {
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addItemCargoGlobal ["ToolKit",1];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ATmine,2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_ATmine,4];
 };
 
 // BACKPACK: VEHICLE DRIVERS

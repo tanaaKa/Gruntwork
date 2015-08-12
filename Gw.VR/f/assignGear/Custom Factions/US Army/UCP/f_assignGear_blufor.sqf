@@ -187,7 +187,7 @@ _SNrifleMag = "rhsusf_5Rnd_300winmag_xm2010";
 
 // Engineer items
 _ATmine = "ATMine_Range_Mag";
-_satchel = "DemoCharge_Remote_Mag";
+_satchel = "SatchelCharge_Remote_Mag";
 _APmine = "ClaymoreDirectionalMine_Remote_Mag";
 
 // ====================================================================================

@@ -186,9 +186,9 @@ _SNrifle = "rhs_weap_svdp_wd";
 _SNrifleMag = "rhs_10Rnd_762x54mmR_7N1";
 
 // Engineer items
-_ATmine = "rhs_mine_tm62m_mag";
-_satchel = "IEDUrbanSmall_Remote_Mag";
-_APmine = "rhs_mine_pmn2_mag";
+_ATmine = "ATMine_Range_Mag";
+_satchel = "IEDUrbanBig_Remote_Mag";
+_APmine = "APERSTripMine_Wire_Mag";
 
 // ====================================================================================
 
