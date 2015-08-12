@@ -2403,7 +2403,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={482.8974,5,2462.022};
+					position[]={510.66388,5,2490.5088};
 					id=150;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2417,7 +2417,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={485.4267,5,2460.4868};
+					position[]={513.19312,5,2488.9736};
 					id=151;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2430,7 +2430,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={487.00873,5,2460.436};
+					position[]={514.77515,5,2488.9229};
 					id=152;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2443,7 +2443,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={488.55951,5,2460.4097};
+					position[]={516.32593,5,2488.8965};
 					id=153;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2464,7 +2464,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={506.77155,5,2490.1558};
+					position[]={536.46661,5,2490.1558};
 					id=154;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2478,7 +2478,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={509.29797,5,2488.6206};
+					position[]={538.99304,5,2488.6206};
 					id=155;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2491,7 +2491,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={510.88293,5,2488.5698};
+					position[]={540.578,5,2488.5698};
 					id=156;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2504,7 +2504,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={512.43176,5,2488.5425};
+					position[]={542.12683,5,2488.5425};
 					id=157;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2525,7 +2525,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={507.50104,5,2462.5728};
+					position[]={561.89075,5,2490.0352};
 					id=158;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2539,7 +2539,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={510.02844,5,2461.0376};
+					position[]={564.41815,5,2488.5};
 					id=159;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2552,7 +2552,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={511.61243,5,2460.9907};
+					position[]={566.00214,5,2488.4531};
 					id=160;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2565,7 +2565,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={513.16125,5,2460.9595};
+					position[]={567.55096,5,2488.4219};
 					id=161;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2586,7 +2586,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={533.52557,5,2490.4077};
+					position[]={482.32709,5,2458.9883};
 					id=162;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2600,7 +2600,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={536.05682,5,2488.8745};
+					position[]={484.85834,5,2457.4551};
 					id=163;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2613,7 +2613,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={537.63885,5,2488.8276};
+					position[]={486.44043,5,2457.4082};
 					id=164;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2626,7 +2626,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={539.18964,5,2488.7964};
+					position[]={487.99121,5,2457.377};
 					id=165;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2647,7 +2647,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={533.74725,5,2462.4009};
+					position[]={510.99799,5,2459.4683};
 					id=166;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2661,7 +2661,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={536.27655,5,2460.8657};
+					position[]={513.52728,5,2457.9331};
 					id=167;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2674,7 +2674,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={537.86053,5,2460.8188};
+					position[]={515.11127,5,2457.8862};
 					id=168;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2687,7 +2687,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={539.41132,5,2460.7876};
+					position[]={516.66205,5,2457.855};
 					id=169;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2708,7 +2708,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={557.61932,5,2490.5386};
+					position[]={536.79858,5,2459.4604};
 					id=170;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2722,7 +2722,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={560.15057,5,2489.0034};
+					position[]={539.32983,5,2457.9253};
 					id=171;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2735,7 +2735,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={561.73358,5,2488.9526};
+					position[]={540.91284,5,2457.8745};
 					id=172;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2748,7 +2748,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={563.28339,5,2488.9253};
+					position[]={542.46265,5,2457.8472};
 					id=173;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2769,7 +2769,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={558.34882,5,2462.9556};
+					position[]={560.51617,5,2458.9985};
 					id=174;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2783,7 +2783,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={560.88007,5,2461.4204};
+					position[]={563.04742,5,2457.4634};
 					id=175;
 					side="WEST";
 					vehicle="B_Helipilot_F";
@@ -2796,7 +2796,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={562.4621,5,2461.3716};
+					position[]={564.62946,5,2457.4146};
 					id=176;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -2809,7 +2809,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={564.01288,5,2461.3423};
+					position[]={566.18024,5,2457.3853};
 					id=177;
 					side="WEST";
 					vehicle="B_helicrew_F";
@@ -3048,7 +3048,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={536.5874,5,462.71289};
+					position[]={506.92023,5,462.41016};
 					id=192;
 					side="EAST";
 					vehicle="O_helipilot_F";
@@ -3062,7 +3062,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={538.51514,5,460.80273};
+					position[]={508.84796,5,460.5};
 					id=193;
 					side="EAST";
 					vehicle="O_Pilot_F";
@@ -3075,7 +3075,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={540.68292,5,460.55518};
+					position[]={511.01575,5,460.25244};
 					id=194;
 					side="EAST";
 					vehicle="O_helicrew_F";
@@ -3088,7 +3088,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={543.05353,5,460.82861};
+					position[]={513.38635,5,460.52588};
 					id=195;
 					side="EAST";
 					vehicle="O_helicrew_F";
@@ -3109,7 +3109,7 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={507.21906,5,463.33789};
+					position[]={534.46448,5,462.73193};
 					id=196;
 					side="EAST";
 					vehicle="O_helipilot_F";
@@ -3123,7 +3123,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={509.36163,5,461.5332};
+					position[]={536.60706,5,460.92725};
 					id=197;
 					side="EAST";
 					vehicle="O_Pilot_F";
@@ -3136,7 +3136,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={511.32379,5,461.19434};
+					position[]={538.56921,5,460.58838};
 					id=198;
 					side="EAST";
 					vehicle="O_helicrew_F";
@@ -3149,7 +3149,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={513.6944,5,461.46777};
+					position[]={540.93982,5,460.86182};
 					id=199;
 					side="EAST";
 					vehicle="O_helicrew_F";
@@ -7036,7 +7036,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={484.28412,5,2454.4575};
+			position[]={512.0506,5,2482.9443};
 			id=418;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7046,7 +7046,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={508.15826,5,2482.5894};
+			position[]={537.85333,5,2482.5894};
 			id=419;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7056,7 +7056,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={508.88776,5,2455.0122};
+			position[]={563.27747,5,2482.4746};
 			id=420;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7066,7 +7066,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={534.91425,5,2482.8433};
+			position[]={483.71576,5,2451.4238};
 			id=421;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7076,7 +7076,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={535.13397,5,2454.8403};
+			position[]={512.3847,5,2451.9077};
 			id=422;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7086,7 +7086,7 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={559.008,5,2482.9722};
+			position[]={538.18726,5,2451.894};
 			id=423;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7096,7 +7096,7 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={559.73749,5,2455.3911};
+			position[]={561.90485,5,2451.4341};
 			id=424;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
@@ -7146,7 +7146,7 @@ class Mission
 		};
 		class Item14
 		{
-			position[]={544.71918,5,458.31055};
+			position[]={515.052,5,458.00781};
 			id=429;
 			side="EMPTY";
 			vehicle="O_Heli_Transport_04_covered_F";
@@ -7155,7 +7155,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={515.35382,5,458.93555};
+			position[]={542.59924,5,458.32959};
 			id=430;
 			side="EMPTY";
 			vehicle="O_Heli_Transport_04_covered_F";
@@ -7422,7 +7422,7 @@ class Mission
 			vehicle="I_Heli_Transport_02_F";
 			leader=1;
 			skill=0.60000002;
-			text="VehINDFOR_TH4_1";
+			text="VehINDFOR_TH5";
 		};
 		class Item44
 		{
@@ -7432,7 +7432,7 @@ class Mission
 			vehicle="I_Heli_Transport_02_F";
 			leader=1;
 			skill=0.60000002;
-			text="VehINDFOR_TH4_2";
+			text="VehINDFOR_TH6";
 		};
 		class Item45
 		{
@@ -7442,7 +7442,7 @@ class Mission
 			vehicle="I_Heli_Transport_02_F";
 			leader=1;
 			skill=0.60000002;
-			text="VehINDFOR_TH4_3";
+			text="VehINDFOR_TH7";
 		};
 		class Item46
 		{
@@ -7452,7 +7452,7 @@ class Mission
 			vehicle="I_Heli_Transport_02_F";
 			leader=1;
 			skill=0.60000002;
-			text="VehINDFOR_TH4_4";
+			text="VehINDFOR_TH8";
 		};
 		class Item47
 		{
