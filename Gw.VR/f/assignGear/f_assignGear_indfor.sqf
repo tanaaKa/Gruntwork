@@ -375,7 +375,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
-		["ar"] call _backpack;
 		_attachments = [_attach1,_bipod1];
 	};
 
@@ -414,7 +413,6 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
-		["mmg"] call _backpack;
 		_attachments = [_bipod2];
 	};
 

@@ -25,8 +25,6 @@ case "ar":
 {	
 		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 2];
 };
 
 // BACKPACK: AAR
@@ -35,7 +33,7 @@ case "aar":
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag, 3];
-		(unitBackpack _unit) addMagazineCargoGlobal [_ARmag_tr, 2];
+		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 };
 
 // BACKPACK: RIFLEMAN AT (RAT)
@@ -66,22 +64,13 @@ case "car":
 		clearMagazineCargoGlobal (unitBackpack _unit);
 };
 
-// BACKPACK: MMG GUNNER (MMG)
-case "mmg":
-{	
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 2];
-};
-
 // BACKPACK: MMG ASSISTANT GUNNER (MMGAG)
 case "mmgag":
 {
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
-		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag_tr, 1];
+		(unitBackpack _unit) addMagazineCargoGlobal [_sparebarrel, 1];
 };
 
 // LOADOUT: HEAVY MG GUNNER (HMGG)
