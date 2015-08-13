@@ -459,6 +459,7 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addweapon _carbine;
 		_unit addweapon _MAT;
+		_unit addSecondaryWeaponItem _scope5;
 		_attachments = [_attach1];
 	};
 

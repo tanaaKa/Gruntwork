@@ -1,4 +1,4 @@
-// F3 - Folk ARPS Assign Gear Script - US Army (OCP)
+// F3 - Folk ARPS Assign Gear Script - USMC (Woodland)
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 // ====================================================================================
 
@@ -76,7 +76,7 @@ _attachments = [_attach1,_scope1]; // The default attachment set for most units,
 // WEAPON SELECTION
 
 // Standard Riflemen ( MMG Assistant Gunner, Assistant Automatic Rifleman, MAT Assistant Gunner, MTR Assistant Gunner, Rifleman)
-_rifle = "rhs_weap_m4a1_carryhandle";
+_rifle = "rhs_weap_m16a4_carryhandle";
 _riflemag = "30Rnd_556x45_Stanag";
 _riflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 
@@ -86,7 +86,7 @@ _carbinemag = "30Rnd_556x45_Stanag";
 _carbinemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 
 // Rifle with GL and HE grenades (CO, SL, FTLs)
-_glrifle = "rhs_weap_m4a1_carryhandle_m203";
+_glrifle = "rhs_weap_m16a4_carryhandle_M203";
 _glriflemag = "30Rnd_556x45_Stanag";
 _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Red";
 _glmag = "1Rnd_HE_Grenade_shell";
@@ -129,8 +129,8 @@ _chemblue = "Chemlight_blue";
 
 // Backpacks
 _bagsmall = "B_AssaultPack_rgr";				// small
-_bagmedium = "rhsusf_assault_eagleaiii_ocp";	// medium
-_baglarge = "B_Carryall_cbr"; 					// large
+_bagmedium = "rhsusf_assault_eagleaiii_coy";	// medium
+_baglarge = "B_Carryall_khk"; 					// large
 _baghmgg = "B_HMG_01_weapon_F";					// used by Heavy MG gunner
 _baghmgag = "B_HMG_01_support_F";				// used by Heavy MG assistant gunner
 _baghatg = "B_AT_01_weapon_F";					// used by Heavy AT gunner
@@ -182,8 +182,8 @@ _DMrifle = "rhs_weap_m14ebrri";
 _DMriflemag = "rhsusf_20Rnd_762x51_m118_special_Mag";
 
 // Sniper
-_SNrifle = "rhs_weap_XM2010";
-_SNrifleMag = "rhsusf_5Rnd_300winmag_xm2010";
+_SNrifle = "rhs_weap_sr25";
+_SNrifleMag = "rhsusf_20Rnd_762x51_m118_special_Mag";
 
 // Engineer items
 _ATmine = "ATMine_Range_Mag";
@@ -203,9 +203,9 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["rhs_uniform_cu_ocp"];
-_baseHelmet = ["rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ESS_ocp"];
-_baseRig = ["rhsusf_iotv_ocp_Squadleader"];
+_baseUniform = ["rhs_uniform_FROG01_wd"];
+_baseHelmet = ["rhsusf_lwh_helmet_marpatwd"];
+_baseRig = ["rhsusf_spc"];
 _baseGlasses = [];
 
 // Pilot
@@ -221,9 +221,9 @@ _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewman
-_crewUniform = ["rhs_uniform_cu_ocp"];
+_crewUniform = ["rhs_uniform_FROG01_wd"];
 _crewHelmet = ["rhsusf_cvc_green_helmet"];
-_crewRig = ["rhsusf_iotv_ocp_Repair"];
+_crewRig = ["rhsusf_spc"];
 _crewGlasses = [];
 
 // Ghillie
