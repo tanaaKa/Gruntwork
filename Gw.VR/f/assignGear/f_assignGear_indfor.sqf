@@ -311,7 +311,6 @@ switch (_typeofUnit) do
 		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addWeapon "Binocular";
 		_unit linkItem "ItemGPS";
 		_unit addItem _maptools;
@@ -325,11 +324,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
 		_unit addweapon _glrifle;					//_DCrifle
-		_unit addmagazines [_pistolmag,2];
-		_unit addweapon _pistol;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addWeapon "Binocular";
 		_unit linkItem "ItemGPS";
 		_unit addItem _maptools;
@@ -345,7 +341,6 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_smokegrenadegreen,2];
 		_unit linkItem "ItemGPS";
 		["m"] call _backpack;
 		_attachments = [_attach1];
@@ -359,7 +354,6 @@ switch (_typeofUnit) do
 		_unit addweapon _glrifle;					//_FTLrifle
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addmagazines [_smokegrenadegreen,2];
 		_unit addWeapon "Binocular";
 		_unit linkItem "ItemGPS";
 		["g"] call _backpack;
