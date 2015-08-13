@@ -85,7 +85,7 @@ _carbinemag = "30Rnd_556x45_Stanag";
 _carbinemag_tr = "30Rnd_556x45_Stanag_Tracer_Yellow";
 
 // Rifle with GL and HE grenades (CO, SL, FTLs)
-_glrifle = "arifle_MX_GL_F";
+_glrifle = "arifle_Mk20_GL_F";
 _glriflemag = "30Rnd_556x45_Stanag";
 _glriflemag_tr = "30Rnd_556x45_Stanag_Tracer_Yellow";
 _glmag = "1Rnd_HE_Grenade_shell";
@@ -202,15 +202,15 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["U_I_CombatUniform"];
+_baseUniform = ["U_I_CombatUniform","U_I_CombatUniform_shortsleeve"];
 _baseHelmet = ["H_HelmetIA"];
-_baseRig = ["V_PlateCarrierIA1_dgtl","V_PlateCarrierIA2_dgtl"];
+_baseRig = ["V_PlateCarrierIA2_dgtl"];
 _baseGlasses = [];
 
 // Pilot
 _pilotUniform = ["U_I_HeliPilotCoveralls"];
 _pilotHelmet = ["H_PilotHelmetHeli_I"];
-_pilotRig = ["V_TacVest_camo"];
+_pilotRig = ["V_TacVest_oli"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilot

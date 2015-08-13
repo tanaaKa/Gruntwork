@@ -202,9 +202,9 @@ _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
 
 // Infantry
-_baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest"];
-_baseHelmet = ["H_HelmetB","H_HelmetSpecB"];
-_baseRig = ["V_PlateCarrier1_rgr","V_PlateCarrier2_rgr"];
+_baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest","U_B_CombatUniform_mcam_tshirt"];
+_baseHelmet = ["H_HelmetSpecB"];
+_baseRig = ["V_PlateCarrier2_rgr"];
 _baseGlasses = [];
 
 // Pilot
