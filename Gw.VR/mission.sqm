@@ -5370,8 +5370,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitOPFOR_ENG1_FTL";
-					init="GrpOPFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
-					description="OPFOR Engineer Team 1 Leader (Demo)";
+					init="GrpOPFOR_ENG1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="OPFOR Combat Engineer Team 1 Leader";
 				};
 				class Item1
 				{
@@ -5383,7 +5383,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitOPFOR_ENG1_A1";
 					init="GrpOPFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
-					description="OPFOR Engineer Team 1 Assistant (Demo)";
+					description="OPFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item2
 				{
@@ -5394,8 +5394,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitOPFOR_ENG1_A2";
-					init="GrpOPFOR_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
-					description="OPFOR Engineer Team 1 Assistant (Mines)";
+					init="GrpOPFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
+					description="OPFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item3
 				{
@@ -5407,7 +5407,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitOPFOR_ENG1_A3";
 					init="GrpOPFOR_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
-					description="OPFOR Engineer Team 1 Assistant (Mines)";
+					description="OPFOR Combat Engineer Team 1 Assistant (Mines)";
 				};
 			};
 		};
@@ -5691,8 +5691,8 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="UnitBLUFOR_ENG1_FTL";
-					init="GrpBLUFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
-					description="BLUFOR Engineer Team 1 Leader (Demo)";
+					init="GrpBLUFOR_ENG1 = group this; [""ftl"",this] call f_fnc_assignGear;";
+					description="BLUFOR Combat Engineer Team 1 Leader";
 				};
 				class Item1
 				{
@@ -5704,7 +5704,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitBLUFOR_ENG1_A1";
 					init="GrpBLUFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
-					description="BLUFOR Engineer Team 1 Assistant (Demo)";
+					description="BLUFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item2
 				{
@@ -5715,8 +5715,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitBLUFOR_ENG1_A2";
-					init="GrpBLUFOR_ENG1 = group this; [""engm"",this] call f_fnc_assignGear;";
-					description="BLUFOR Engineer Team 1 Assistant (Mines)";
+					init="GrpBLUFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear;";
+					description="BLUFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item3
 				{
@@ -6008,8 +6008,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="UnitINDFOR_ENG1_FTL";
-					init="GrpINDFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-					description="INDFOR Engineer Team 1 Leader (Demo)";
+					init="GrpINDFOR_ENG1 = group this; [""ftl"",this] call f_fnc_assignGear; ";
+					description="INDFOR Combat Engineer Team 1 Leader";
 				};
 				class Item1
 				{
@@ -6021,7 +6021,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitINDFOR_ENG1_A1";
 					init="GrpINDFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
-					description="INDFOR Engineer Team 1 Assistant (Demo)";
+					description="INDFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item2
 				{
@@ -6032,8 +6032,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="UnitINDFOR_ENG1_A2";
-					init="GrpINDFOR_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-					description="INDFOR Engineer Team 1 Assistant (Mines)";
+					init="GrpINDFOR_ENG1 = group this; [""eng"",this] call f_fnc_assignGear; ";
+					description="INDFOR Combat Engineer Team 1 Assistant (Demolitions)";
 				};
 				class Item3
 				{
@@ -6045,7 +6045,7 @@ class Mission
 					skill=0.60000002;
 					text="UnitINDFOR_ENG1_A3";
 					init="GrpINDFOR_ENG1 = group this; [""engm"",this] call f_fnc_assignGear; ";
-					description="INDFOR Engineer Team 1 Assistant (Mines)";
+					description="INDFOR Combat Engineer Team 1 Assistant (Mines)";
 				};
 			};
 		};
