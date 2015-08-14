@@ -14,7 +14,7 @@ case "g":
 {	
 		_unit addBackpack _bagmedium;
 		clearMagazineCargoGlobal (unitBackpack _unit);
-		(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 11];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 21];
 		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 5];
 		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokegreen, 5];
 		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokered, 5];
