@@ -70,7 +70,7 @@ case "mmgag":
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_MMGmag, 3];
-		(unitBackpack _unit) addMagazineCargoGlobal [_sparebarrel, 1];
+		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 };
 
 // LOADOUT: HEAVY MG GUNNER (HMGG)
