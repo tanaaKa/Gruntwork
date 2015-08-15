@@ -60,12 +60,12 @@ _silencer1 = "muzzle_snds_H";	// Primary
 _scope1 = "optic_Holosight";	// Short Range
 _scope2 = "optic_Arco";			// Medium Range
 _scope3 = "optic_AMS_snd";		// Medium - Long Range
-_scope4 = "optic_KHS_tan";		// Long Range
+_scope4 = "optic_LRPS";			// Long Range
 
 _bipod1 = "bipod_01_F_snd";		// Light Machine Gun
 _bipod2 = "bipod_01_F_snd";		// Medium Machine Gun
 _bipod3 = "bipod_01_F_snd";		// Marksman
-_bipod4 = "bipod_01_F_snd";		// Sniper
+_bipod4 = "";					// Sniper
 
 // Default setup
 _attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
@@ -181,8 +181,8 @@ _DMrifle = "srifle_DMR_03_tan_F";
 _DMriflemag = "20Rnd_762x51_Mag";
 
 // Sniper
-_SNrifle = "srifle_DMR_02_sniper_F";
-_SNrifleMag = "10Rnd_338_Mag";
+_SNrifle = "srifle_LRR_camo_F";
+_SNrifleMag = "7Rnd_408_Mag";
 
 // Engineer items
 _ATmine = "ATMine_Range_Mag";
@@ -560,7 +560,7 @@ switch (_typeofUnit) do
 // LOADOUT: SNIPER
 	case "sn":
 	{
-		_unit addmagazines [_SNrifleMag,7];
+		_unit addmagazines [_SNrifleMag,6];
 		_unit addweapon _SNrifle;
 		_unit addmagazines [_pistolmag,2];
 		_unit addweapon _pistol;
