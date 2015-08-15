@@ -323,16 +323,13 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,9];
-		_unit addmagazines [_glsmokewhite,2];
-		_unit addmagazines [_glsmokegreen,2];
-		_unit addmagazines [_glsmokered,2];
 		_unit addweapon _glrifle;					//_DCrifle
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "Binocular";
 		_unit linkItem "ItemGPS";
 		_unit addItem _maptools;
+		["g"] call _backpack;
 		_attachments = [_attach1,_scope2];
 	};
 
@@ -354,22 +351,19 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,9];
-		_unit addmagazines [_glsmokewhite,2];
-		_unit addmagazines [_glsmokegreen,2];
-		_unit addmagazines [_glsmokered,2];
 		_unit addweapon _glrifle;					//_FTLrifle
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
 		_unit addWeapon "Binocular";
 		_unit linkItem "ItemGPS";
+		["g"] call _backpack;
 		_attachments = [_attach1,_scope2];
 	};
 
 // LOADOUT: AUTOMATIC RIFLEMAN
 	case "ar":
 	{
-		_unit addmagazines [_ARmag,3];
+		_unit addmagazines [_ARmag,6];
 		_unit addweapon _AR;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
@@ -734,13 +728,10 @@ switch (_typeofUnit) do
 	{
 		_unit addmagazines [_glriflemag,7];
 		_unit addmagazines [_glriflemag_tr,2];
-		_unit addmagazines [_glmag,9];
-		_unit addmagazines [_glsmokewhite,2];
-		_unit addmagazines [_glsmokegreen,2];
-		_unit addmagazines [_glsmokered,2];
 		_unit addweapon _glrifle;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
+		["g"] call _backpack;
 		_attachments = [_attach1];
 	};
 

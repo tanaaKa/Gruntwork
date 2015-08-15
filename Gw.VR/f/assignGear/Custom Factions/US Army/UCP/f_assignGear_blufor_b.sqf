@@ -12,8 +12,12 @@ case "m":
 // BACKPACK: GRENADIER (DC/SL/FTL/G)
 case "g":
 {	
-		_unit addBackpack _bagmedium;
+		_unit addBackpack _bagsmall;
 		clearMagazineCargoGlobal (unitBackpack _unit);
+		(unitBackpack _unit) addMagazineCargoGlobal [_glmag, 11];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokewhite, 2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokegreen, 2];
+		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokered, 2];
 };
 
 // BACKPACK: AR
