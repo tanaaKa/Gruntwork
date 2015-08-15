@@ -19,8 +19,8 @@ player addItem "ACE_morphine";
 // Medic Backpacks
 if (_typeOfUnit == "m") then
 {
-		(unitBackpack player) addItemCargoGlobal ["ACE_fieldDressing", 25];
-		(unitBackpack player) addItemCargoGlobal ["ACE_morphine", 15];
-		(unitBackpack player) addItemCargoGlobal ["ACE_epinephrine",   15];
+		(unitBackpack player) addItemCargoGlobal ["ACE_fieldDressing", 50];
+		(unitBackpack player) addItemCargoGlobal ["ACE_morphine", 25];
+		(unitBackpack player) addItemCargoGlobal ["ACE_epinephrine",   25];
 		(unitBackpack player) addItemCargoGlobal ["ACE_bloodIV", 5];
 	};
