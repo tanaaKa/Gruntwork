@@ -1,6 +1,5 @@
-// DEFINE BACKPACK CONTENTS
-// The following blocks of code define different backpack loadouts. These are then
-// called from the role loadouts.
+// F3 - Folk ARPS Assign Gear Backpack Script - USMC (Desert)
+// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
 // BACKPACK: MEDIC
 case "m":
