@@ -688,7 +688,7 @@ switch (_typeofUnit) do
 		_unit addweapon _carbine;
 		_unit addmagazines [_grenade,1];
 		_unit addmagazines [_smokegrenade,2];
-		_unit addWeapon "Laserdesignator";
+		_unit addWeapon "Laserdesignator_03";
 		_unit addmagazines ["Laserbatteries",3];
 		_unit linkItem "ItemGPS";
 		_unit addItem _maptools;
