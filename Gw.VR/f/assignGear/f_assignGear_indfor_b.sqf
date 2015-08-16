@@ -1,14 +1,8 @@
-// F3 - Folk ARPS Assign Gear Backpack Script - AAF
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+// ====================================================================================
+// BACKPACK EQUIPMENT FOR AAF
+// ====================================================================================
 
-// BACKPACK: MEDIC
-case "m":
-{
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: GRENADIER (DC/SL/FTL/G)
+// BACKPACK: GRENADIER
 case "g":
 {	
 		_unit addBackpack _bagsmall;
@@ -19,14 +13,7 @@ case "g":
 		(unitBackpack _unit) addMagazineCargoGlobal [_glsmokered, 2];
 };
 
-// BACKPACK: AR
-case "ar":
-{	
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: AAR
+// BACKPACK: ASSISTANT AUTOMATIC RIFLEMAN
 case "aar":
 {	
 		_unit addBackpack _baglarge;
@@ -35,35 +22,7 @@ case "aar":
 		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 };
 
-// BACKPACK: RIFLEMAN AT (RAT)
-case "rat":
-{
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: DESIGNATED MARKSMAN (DM)
-case "dm":
-{
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: RIFLEMAN (R)
-case "r":
-{
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: CARABINEER (CAR)
-case "car":
-{
-		_unit addBackpack _bagmedium;
-		clearMagazineCargoGlobal (unitBackpack _unit);
-};
-
-// BACKPACK: MMG ASSISTANT GUNNER (MMGAG)
+// BACKPACK: MMG ASSISTANT GUNNER
 case "mmgag":
 {
 		_unit addBackpack _baglarge;
@@ -72,19 +31,19 @@ case "mmgag":
 		(unitBackpack _unit) addItemCargoGlobal [_sparebarrel, 1];
 };
 
-// LOADOUT: HEAVY MG GUNNER (HMGG)
+// LOADOUT: HEAVY MG GUNNER
 case "hmgg":
 {
 	_unit addBackpack _baghmgg;
 };
 
-// LOADOUT: HEAVY MG ASSISTANT GUNNER (HMGAG)
+// LOADOUT: HEAVY MG ASSISTANT GUNNER
 case "hmgag":
 {
 	_unit addBackpack _baghmgag;
 };
 
-// BACKPACK: MAT GUNNER (MATG)
+// BACKPACK: MAT GUNNER
 case "matg":
 {
 		_unit addBackpack _baglarge;
@@ -93,7 +52,7 @@ case "matg":
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag2, 2];
 };
 
-// BACKPACK: MAT ASSISTANT (MATAG)
+// BACKPACK: MAT ASSISTANT GUNNER
 case "matag":
     {
 		_unit addBackpack _baglarge;
@@ -102,7 +61,7 @@ case "matag":
 		(unitBackpack _unit) addMagazineCargoGlobal [_MATmag2, 2];
 };
 
-// LOADOUT: HEAVY AT GUNNER (HATG)
+// LOADOUT: HEAVY AT GUNNER
 case "hatg":
 {
 	_unit addBackpack _baglarge;
@@ -110,7 +69,7 @@ case "hatg":
 	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 3];
 };
 
-// LOADOUT: HEAVY AT ASSISTANT GUNNER (HATAG)
+// LOADOUT: HEAVY AT ASSISTANT GUNNER
 case "hatag":
 {
 	_unit addBackpack _baglarge;
@@ -118,19 +77,19 @@ case "hatag":
 	(unitBackpack _unit) addMagazineCargoGlobal [_HATmag, 2];
 };
 
-// BACKPACK: MORTAR GUNNER (MTRG)
+// BACKPACK: MORTAR GUNNER
 case "mtrg":
 {
 	_unit addBackpack _bagmtrg;
 };
 
-// BACKPACK: MORTAR ASSISTANT GUNNER (MTRAG)
+// BACKPACK: MORTAR ASSISTANT GUNNER
 case "mtrag":
 {
 	_unit addBackpack _bagmtrag;
 };
 
-// BACKPACK: SAM GUNNER (SAM)
+// BACKPACK: MEDIUM SAM GUNNER
 case "msamg":
 {
 	_unit addBackpack _baglarge;
@@ -138,12 +97,27 @@ case "msamg":
 	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 3];
 };
 
-// BACKPACK: SAM ASSISTANT GUNNER (SAM)
+// BACKPACK: MEDIUM SAM ASSISTANT GUNNER
 case "msamag":
 {
 	_unit addBackpack _baglarge;
 	clearMagazineCargoGlobal (unitBackpack _unit);
 	(unitBackpack _unit) addMagazineCargoGlobal [_SAMmag, 2];
+};
+
+// BACKPACK: VEHICLE DRIVERS
+case "cc":
+{
+	_unit addBackpack _bagsmall;
+	clearMagazineCargoGlobal (unitBackpack _unit);
+	(unitBackpack _unit) addItemCargoGlobal ["ToolKit",1];
+};
+
+// BACKPACK: MEDIC
+case "m":
+{
+		_unit addBackpack _bagmedium;
+		clearMagazineCargoGlobal (unitBackpack _unit);
 };
 
 // BACKPACK: ENGINEER (DEMO)
@@ -154,18 +128,18 @@ case "eng":
 		(unitBackpack _unit) addItemCargoGlobal [_satchel,4];
 };
 
-// BACKPACK: ENGINEER (MINES)
-case "engm":
+// BACKPACK: ENGINEER (AT MINES)
+case "engat":
 {
 		_unit addBackpack _baglarge;
 		clearMagazineCargoGlobal (unitBackpack _unit);
 		(unitBackpack _unit) addMagazineCargoGlobal [_ATmine,4];
 };
 
-// BACKPACK: VEHICLE DRIVERS
-case "cc":
+// BACKPACK: ENGINEER (AP MINES)
+case "engp":
 {
-	_unit addBackpack _bagsmall;
-	clearMagazineCargoGlobal (unitBackpack _unit);
-	(unitBackpack _unit) addItemCargoGlobal ["ToolKit",1];
+		_unit addBackpack _baglarge;
+		clearMagazineCargoGlobal (unitBackpack _unit);
+		(unitBackpack _unit) addMagazineCargoGlobal [_APmine,4];
 };

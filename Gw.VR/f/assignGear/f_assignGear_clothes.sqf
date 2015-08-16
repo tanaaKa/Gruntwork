@@ -1,28 +1,30 @@
-// F3 - F3 Folk ARPS Assign Gear
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+// ====================================================================================
+// CLOTHING DISTRIBUTION HANDLING
 // ====================================================================================
 
-// Prevent BIS Randomisation System
-// BIS created a system for randomisation unit loadouts, that may overwrite the changes made by this script, this will fix such system.
+// PREVENT BIS CLOTHING RANDOMISATION SYSTEM
 
 _unit setVariable ["BIS_enableRandomization", false];
 
 // ====================================================================================
 
-// lets strip him down to the basic
+// REMOVE UNIT GEAR
+
 removeUniform _unit;
 removeHeadgear _unit;
 removeVest _unit;
 
-// Assign default clothes
+// ====================================================================================
+
+// ASSIGN CLOTHING TO UNIT
+
+// Infantry
 _uniform = _baseUniform;
 _helmet = _baseHelmet;
 _rig = _baseRig;
 _glasses = _baseGlasses;
 
-// Flip through unit to assign specialized uniforms
-
-// Pilot
+// Helicopter Pilot and Crew
 if (_typeOfUnit in _pilot) then {
 	_helmet = _pilotHelmet;
 	_uniform = _pilotUniform;
@@ -38,7 +40,7 @@ if (_typeOfUnit in _fwpilot) then {
 	_glasses = _fwpilotGlasses;
 };
 
-// Crew
+// Land Vehicle Crew
 if (_typeOfUnit in _crew) then {
 	_helmet = _crewHelmet;
 	_uniform = _crewUniform;
@@ -46,7 +48,7 @@ if (_typeOfUnit in _crew) then {
 	_glasses = _crewGlasses;
 };
 
-// Ghillie
+// Sniper and Spotter
 if (_typeOfUnit in _ghillie) then {
 	_helmet = _ghillieHelmet;
 	_uniform = _ghillieUniform;
@@ -54,7 +56,15 @@ if (_typeOfUnit in _ghillie) then {
 	_glasses = _ghillieGlasses;
 };
 
-// Add clothing items to unit
+// Special Forces
+if (_typeOfUnit in _special) then {
+	_helmet = _specialHelmet;
+	_uniform = _specialUniform;
+	_rig = _specialRig;
+	_glasses = _specialGlasses;
+};
+
+// Add Clothing to Unit
 if(count _uniform > 0) then
 {
 	_unit forceAddUniform (_uniform call BIS_fnc_selectRandom);
@@ -74,3 +84,5 @@ if(count _glasses > 0) then
 {
 	_unit addGoggles (_glasses call BIS_fnc_selectRandom);
 };
+
+// ====================================================================================

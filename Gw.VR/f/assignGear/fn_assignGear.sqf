@@ -1,5 +1,5 @@
-// F3 - Folk ARPS Assign Gear Script (Server-side)
-// Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
+// ====================================================================================
+// ASSIGN GEAR SQF HANDLING
 // ====================================================================================
 
 // DECLARE VARIABLES AND FUNCTIONS
@@ -8,9 +8,7 @@ private ["_faction","_typeofUnit","_unit"];
 
 // ====================================================================================
 
-// DETECT unit FACTION
-// The following code detects what faction the unit's slot belongs to, and stores
-// it in the private variable _faction. It can also be passed as an optional parameter.
+// DETECT UNIT FACTION
 
 _typeofUnit = toLower (_this select 0);
 _unit = _this select 1;
@@ -24,21 +22,18 @@ if(count _this > 2) then
 // ====================================================================================
 
 // DECIDE IF THE SCRIPT SHOULD RUN
-// Depending on locality the script decides if it should run
 
 if !(local _unit) exitWith {};
 
 // ====================================================================================
 
-// SET A PUBLIC VARIABLE
-// A public variable is set on the unit, indicating their type. This is mostly relevant for the F3 respawn component
+// INDICATE UNIT TYPE
 
 _unit setVariable ["f_var_assignGear",_typeofUnit,true];
 
 // ====================================================================================
 
-// This variable simply tracks the progress of the gear assignation process, for other
-// scripts to reference.
+// TRACK GEAR ASSIGNATION PROCESS
 
 _unit setVariable ["f_var_assignGear_done",false,true];
 
@@ -53,8 +48,6 @@ if (f_var_debugMode == 1) then
 // ====================================================================================
 
 // GEAR: BLUFOR
-// The following block of code executes only if the unit is in a BLUFOR slot; it
-// automatically includes a file which contains the appropriate equipment data.
 
 if (_faction == "blu_f") then {
 #include "f_assignGear_blufor.sqf"
@@ -63,8 +56,6 @@ if (_faction == "blu_f") then {
 // ====================================================================================
 
 // GEAR: OPFOR
-// The following block of code executes only if the unit is in a OPFOR slot; it
-// automatically includes a file which contains the appropriate equipment data.
 
 if (_faction == "opf_f") then {
 	#include "f_assignGear_opfor.sqf"
@@ -73,8 +64,6 @@ if (_faction == "opf_f") then {
 // ====================================================================================
 
 // GEAR: INDEPEDENT
-// The following block of code executes only if the unit is in a INDEPEDENT slot; it
-// automatically includes a file which contains the appropriate equipment data.
 
 if(_faction == "ind_f") then {
 	#include "f_assignGear_indfor.sqf";
@@ -82,8 +71,7 @@ if(_faction == "ind_f") then {
 
 // ====================================================================================
 
-// This variable simply tracks the progress of the gear assignation process, for other
-// scripts to reference.
+// TRACK GEAR ASSIGNATION PROCESS
 
 _unit setVariable ["f_var_assignGear_done",true,true];
 
@@ -94,9 +82,8 @@ _unit setVariable ["f_var_assignGear_done",true,true];
 // ====================================================================================
 
 // ERROR CHECKING
-// If the faction of the unit cannot be defined, the script exits with an error.
 
-if (isNil "_carbine") then { //_carbine should exist unless no faction has been called
+if (isNil "_carbine") then {
 	player globalchat format ["DEBUG (assignGear.sqf): Faction %1 is not defined.",_faction];
 } else {
  	if (f_var_debugMode == 1) then	{
