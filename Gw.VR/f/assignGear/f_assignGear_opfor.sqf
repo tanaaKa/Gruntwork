@@ -12,21 +12,21 @@ _attach2 = "acc_flashlight";		// Flashlight
 _silencer1 = "muzzle_snds_H";		// Rifle
 _silencer2 = "muzzle_snds_H";		// Carbine
 _silencer3 = "muzzle_snds_H";		// Rifle (GL)	
-_silencer4 = "muzzle_snds_acp";		// Submachine Gun
-_silencer5 = "muzzle_snds_H_SW";	// Automatic Rifleman
-_silencer6 = "muzzle_snds_B";		// Marksman Rifle
+_silencer4 = "muzzle_snds_L";		// Submachine Gun
+_silencer5 = "";					// Automatic Rifleman
+_silencer6 = "muzzle_snds_93mmg";	// Marksman Rifle
 
 // Sights
-_scope1 = "optic_Holosight";		// Short Range
-_scope2 = "optic_Arco";				// Medium Range
-_scope3 = "optic_AMS_snd";			// Marksman Rifle
+_scope1 = "optic_Aco";				// Short Range
+_scope2 = "optic_Hamr";				// Medium Range
+_scope3 = "optic_AMS";				// Marksman Rifle
 _scope4 = "optic_LRPS";				// Sniper Rifle
 _scope5 = "";						// Medium Anti-Tank Launcher
 
 // Bipod
-_bipod1 = "bipod_01_F_snd";			// Light Machine Gun
-_bipod2 = "bipod_01_F_snd";			// Medium Machine Gun
-_bipod3 = "bipod_01_F_snd";			// Marksman Rifle
+_bipod1 = "";						// Light Machine Gun
+_bipod2 = "bipod_02_F_blk";			// Medium Machine Gun
+_bipod3 = "bipod_02_F_blk";			// Marksman Rifle
 _bipod4 = "";						// Sniper Rifle
 
 // ====================================================================================
@@ -40,19 +40,19 @@ _attachments = [_attach1,_scope1];
 // WEAPONS
 
 // Rifle
-_rifle = "arifle_MX_F";
-_riflemag = "30Rnd_65x39_caseless_mag";
-_riflemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
+_rifle = "arifle_Katiba_F";
+_riflemag = "30Rnd_65x39_caseless_green";
+_riflemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 
 // Carbine
-_carbine = "arifle_MXC_F";
-_carbinemag = "30Rnd_65x39_caseless_mag";
-_carbinemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
+_carbine = "arifle_Katiba_C_F";
+_carbinemag = "30Rnd_65x39_caseless_green";
+_carbinemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 
 // Rifle & Grenade Launcher
-_glrifle = "arifle_MX_GL_F";
-_glriflemag = "30Rnd_65x39_caseless_mag";
-_glriflemag_tr = "30Rnd_65x39_caseless_mag_Tracer";
+_glrifle = "arifle_Katiba_GL_F";
+_glriflemag = "30Rnd_65x39_caseless_green";
+_glriflemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Grenade Launcher Smoke
@@ -66,38 +66,38 @@ _glflarered = "UGL_FlareRed_F";
 _glflaregreen = "UGL_FlareGreen_F";
 
 // Submachine Gun
-_smg = "SMG_01_F";
-_smgmag = "30Rnd_45ACP_Mag_SMG_01";
+_smg = "SMG_02_F";
+_smgmag = "30Rnd_9x21_Mag";
 
 // Pistol
-_pistol = "hgun_P07_F";
+_pistol = "hgun_Rook40_F";
 _pistolmag = "16Rnd_9x21_Mag";
 
 // Automatic Rifle
-_AR = "arifle_MX_SW_F";
-_ARmag = "100Rnd_65x39_caseless_mag";
-_ARmag_tr = "100Rnd_65x39_caseless_mag_Tracer";
+_AR = "LMG_Zafir_F";
+_ARmag = "150Rnd_762x54_Box";
+_ARmag_tr = "150Rnd_762x54_Box_Tracer";
 
 // Medium Machine Gun
-_MMG = "MMG_02_sand_F";
-_MMGmag = "130Rnd_338_Mag";
-_MMGmag_tr = "130Rnd_338_Mag";
+_MMG = "MMG_01_hex_F";
+_MMGmag = "150Rnd_93x64_Mag";
+_MMGmag_tr = "150Rnd_93x64_Mag";
 
 // Marksman Rifle
-_DMrifle = "srifle_DMR_03_tan_F";
-_DMriflemag = "20Rnd_762x51_Mag";
+_DMrifle = "srifle_DMR_05_hex_F";
+_DMriflemag = "10Rnd_93x64_DMR_05_Mag";
 
 // Sniper Rifle
-_SNrifle = "srifle_LRR_camo_F";
-_SNrifleMag = "7Rnd_408_Mag";
+_SNrifle = "srifle_GM6_camo_F";
+_SNrifleMag = "5Rnd_127x108_Mag";
 
 // ====================================================================================
 
 // LAUNCHERS
 
 // Light Anti-Tank
-_RAT = "launch_NLAW_F";
-_RATmag = "ACE_PreloadedMissileDummy";
+_RAT = "launch_RPG32_F";
+_RATmag = "RPG32_F";
 
 // Medium Anti-Tank
 _MAT = "launch_RPG32_F";
@@ -105,11 +105,11 @@ _MATmag1 = "RPG32_F";
 _MATmag2 = "RPG32_HE_F";
 
 // Heavy Anti-Tank
-_HAT = "launch_B_Titan_short_F";
+_HAT = "launch_O_Titan_short_F";
 _HATmag = "Titan_AT";
 
 // Surface to Air Missile Launcher
-_SAM = "launch_B_Titan_F";
+_SAM = "launch_O_Titan_F";
 _SAMmag = "Titan_AA";
 
 // ====================================================================================
@@ -124,33 +124,33 @@ _smokegrenadegreen = "SmokeShellGreen";
 // Explosives
 _ATmine = "ATMine_Range_Mag";
 _satchel = "SatchelCharge_Remote_Mag";
-_APmine = "ClaymoreDirectionalMine_Remote_Mag";
+_APmine = "APERSTripMine_Wire_Mag";
 
 // Medical Items
 _firstaid = "FirstAidKit";
 _medkit = "Medikit";
 
 // Night Vision Goggles
-_nvg = "NVGoggles";
+_nvg = "NVGoggles_OPFOR";
 
 // Role-Specific Equipment
-_sparebarrel = "ACE_SpareBarrel";			// ARs and MMGs
-_maptools = "ACE_MapTools";					// COs, DCs, and SLs
+_sparebarrel = "ACE_SpareBarrel";			// ARs & MMGs
+_maptools = "ACE_MapTools";					// COs, DCs, & SLs
 _defusalkit = "ACE_DefusalKit";				// Engineers
 _clacker = "ACE_Clacker";					// Engineers
 _rangecard = "ACE_RangeCard";				// Spotters
 _rangetable = "ACE_RangeTable_82mm";		// Mortar Gunners
 
 // Backpacks
-_bagsmall = "B_AssaultPack_dgtl";			// Small
-_bagmedium = "B_FieldPack_oli";				// Medium
-_baglarge = "B_Carryall_oli"; 				// Large
-_baghmgg = "I_HMG_01_weapon_F";				// Heavy MG Gunner
-_baghmgag = "I_HMG_01_support_F";			// Heavy MG Assistant Gunner
-_baghatg = "I_AT_01_weapon_F";				// Heavy AT Gunner
-_baghatag = "I_HMG_01_support_F";			// Heavy AT Assistant gunner
-_bagmtrg = "I_Mortar_01_weapon_F";			// Mortar Gunner
-_bagmtrag = "I_Mortar_01_support_F";		// Mortar Assistant gunner
+_bagsmall = "B_AssaultPack_ocamo";			// Small
+_bagmedium = "B_FieldPack_ocamo";			// Medium
+_baglarge = "B_Carryall_ocamo"; 			// Large
+_baghmgg = "O_HMG_01_weapon_F";				// Heavy MG Gunner
+_baghmgag = "O_HMG_01_support_F";			// Heavy MG Assistant Gunner
+_baghatg = "O_AT_01_weapon_F";				// Heavy AT Gunner
+_baghatag = "O_HMG_01_support_F";			// Heavy AT Assistant gunner
+_bagmtrg = "O_Mortar_01_weapon_F";			// Mortar Gunner
+_bagmtrag = "O_Mortar_01_support_F";		// Mortar Assistant gunner
 
 // ====================================================================================
 
@@ -164,39 +164,39 @@ _ghillie = ["sn","sp"];
 _special = ["sfftl","sfm","sfar","sfdm","sfeng","sfr","sfrat"];
 
 // Infantry
-_baseUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest","U_B_CombatUniform_mcam_tshirt"];
-_baseHelmet = ["H_HelmetB"];
-_baseRig = ["V_PlateCarrier2_rgr"];
+_baseUniform = ["U_O_CombatUniform_ocamo"];
+_baseHelmet = ["H_HelmetO_ocamo"];
+_baseRig = ["V_HarnessO_brn"];
 _baseGlasses = [];
 
 // Pilots
-_pilotUniform = ["U_B_HeliPilotCoveralls"];
-_pilotHelmet = ["H_PilotHelmetHeli_B"];
-_pilotRig = ["V_TacVest_blk"];
+_pilotUniform = ["U_O_CombatUniform_ocamo"];
+_pilotHelmet = ["H_PilotHelmetHeli_O"];
+_pilotRig = ["V_TacVest_brn"];
 _pilotGlasses = [];
 
 // Fixed Wing Pilots
-_fwpilotUniform = ["U_B_pilotCoveralls"];
-_fwpilotHelmet = ["H_PilotHelmetFighter_B"];
+_fwpilotUniform = ["U_O_pilotCoveralls"];
+_fwpilotHelmet = ["H_PilotHelmetFighter_O"];
 _fwpilotRig = [];
 _fwpilotGlasses = [];
 
 // Crewmen
-_crewUniform = ["U_B_CombatUniform_mcam_tshirt"];
-_crewHelmet = ["H_HelmetCrew_B"];
-_crewRig = ["V_TacVest_oli"];
+_crewUniform = ["U_O_CombatUniform_ocamo"];
+_crewHelmet = ["H_HelmetCrew_O"];
+_crewRig = ["V_TacVest_brn"];
 _crewGlasses = [];
 
 // Snipers
-_ghillieUniform = ["U_B_FullGhillie_lsh"];
+_ghillieUniform = ["U_O_FullGhillie_lsh"];
 _ghillieHelmet = [];
-_ghillieRig = ["V_Chestrig_rgr"];
+_ghillieRig = ["V_Chestrig_khk"];
 _ghillieGlasses = [];
 
 // Special Forces
-_specialUniform = ["U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_vest","U_B_CombatUniform_mcam_tshirt"];
-_specialHelmet = ["H_HelmetSpecB","H_Bandanna_mcamo","H_Watchcap_khk","H_Booniehat_mcamo","H_HelmetB_light","H_MilCap_mcamo"];
-_specialRig = ["V_PlateCarrierSpec_rgr"];
+_specialUniform = ["U_O_CombatUniform_ocamo"];
+_specialHelmet = ["H_HelmetSpecO_ocamo","H_MilCap_ocamo"];
+_specialRig = ["V_HarnessO_brn"];
 _specialGlasses = [];
 
 // ====================================================================================

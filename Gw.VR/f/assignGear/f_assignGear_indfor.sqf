@@ -134,8 +134,8 @@ _medkit = "Medikit";
 _nvg = "NVGoggles_INDEP";
 
 // Role-Specific Equipment
-_sparebarrel = "ACE_SpareBarrel";			// ARs and MMGs
-_maptools = "ACE_MapTools";					// COs, DCs, and SLs
+_sparebarrel = "ACE_SpareBarrel";			// ARs & MMGs
+_maptools = "ACE_MapTools";					// COs, DCs, & SLs
 _defusalkit = "ACE_DefusalKit";				// Engineers
 _clacker = "ACE_Clacker";					// Engineers
 _rangecard = "ACE_RangeCard";				// Spotters
