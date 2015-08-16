@@ -134,23 +134,23 @@ _medkit = "Medikit";
 _nvg = "NVGoggles";
 
 // Role-Specific Equipment
-_sparebarrel = "ACE_SpareBarrel";			// for ARs and MMGs
-_maptools = "ACE_MapTools";					// for SLs, DCs, and COs
-_defusalkit = "ACE_DefusalKit";				// for engineers
-_clacker = "ACE_Clacker";					// for engineers
-_rangecard = "ACE_RangeCard";				// for spotters
-_rangetable = "ACE_RangeTable_82mm";		// for mortar gunners
+_sparebarrel = "ACE_SpareBarrel";			// ARs and MMGs
+_maptools = "ACE_MapTools";					// COs, DCs, and SLs
+_defusalkit = "ACE_DefusalKit";				// Engineers
+_clacker = "ACE_Clacker";					// Engineers
+_rangecard = "ACE_RangeCard";				// Spotters
+_rangetable = "ACE_RangeTable_82mm";		// Mortar Gunners
 
 // Backpacks
-_bagsmall = "B_AssaultPack_mcamo";			// small
-_bagmedium = "B_Kitbag_mcamo";				// medium
-_baglarge = "B_Carryall_mcamo"; 			// large
-_baghmgg = "B_HMG_01_weapon_F";				// used by Heavy MG gunner
-_baghmgag = "B_HMG_01_support_F";			// used by Heavy MG assistant gunner
-_baghatg = "B_AT_01_weapon_F";				// used by Heavy AT gunner
-_baghatag = "B_HMG_01_support_F";			// used by Heavy AT assistant gunner
-_bagmtrg = "B_Mortar_01_weapon_F";			// used by Mortar gunner
-_bagmtrag = "B_Mortar_01_support_F";		// used by Mortar assistant gunner
+_bagsmall = "B_AssaultPack_mcamo";			// Small
+_bagmedium = "B_Kitbag_mcamo";				// Medium
+_baglarge = "B_Carryall_mcamo"; 			// Large
+_baghmgg = "B_HMG_01_weapon_F";				// Heavy MG Gunner
+_baghmgag = "B_HMG_01_support_F";			// Heavy MG Assistant Gunner
+_baghatg = "B_AT_01_weapon_F";				// Heavy AT Gunner
+_baghatag = "B_HMG_01_support_F";			// Heavy AT Assistant gunner
+_bagmtrg = "B_Mortar_01_weapon_F";			// Mortar Gunner
+_bagmtrag = "B_Mortar_01_support_F";		// Mortar Assistant gunner
 
 // ====================================================================================
 
@@ -203,9 +203,9 @@ _specialGlasses = [];
 
 // INTERPRET PASSED VARIABLES
 
-_typeofUnit = toLower (_this select 0);		// Tidy input for SWITCH/CASE statements, expecting something like : r = Rifleman, co = Commanding Officer, rat = Rifleman (AT)
-_unit = _this select 1;						// expecting name of unit; originally passed by using 'this' in unit init
-_isMan = _unit isKindOf "CAManBase";		// We check if we're dealing with a soldier or a vehicle
+_typeofUnit = toLower (_this select 0);
+_unit = _this select 1;
+_isMan = _unit isKindOf "CAManBase";
 
 // ====================================================================================
 
