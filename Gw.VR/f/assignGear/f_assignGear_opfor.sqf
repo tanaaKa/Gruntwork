@@ -195,7 +195,7 @@ _ghillieGlasses = [];
 
 // Special Forces
 _specialUniform = ["U_O_CombatUniform_ocamo"];
-_specialHelmet = ["H_HelmetSpecO_ocamo","H_MilCap_ocamo"];
+_specialHelmet = ["H_HelmetSpecO_ocamo"];
 _specialRig = ["V_HarnessO_brn"];
 _specialGlasses = [];
 
