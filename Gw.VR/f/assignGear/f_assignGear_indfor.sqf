@@ -52,20 +52,25 @@
 // GENERAL EQUIPMENT USED BY MULTIPLE CLASSES
 
 // ATTACHMENTS - PRIMARY
-_attach1 = "acc_pointer_IR";	// IR Laser
-_attach2 = "acc_flashlight";	// Flashlight
+_attach1 = "acc_pointer_IR";		// IR Laser
+_attach2 = "acc_flashlight";		// Flashlight
 
-_silencer1 = "muzzle_snds_M";	// Primary
+_silencer1 = "muzzle_snds_M";		// Rifle
+_silencer2 = "muzzle_snds_M";		// Carbine
+_silencer3 = "muzzle_snds_M";		// Rifle (GL)	
+_silencer4 = "muzzle_snds_L";		// Submachine Gun
+_silencer5 = "muzzle_snds_H_MG";	// Automatic Rifleman
+_silencer6 = "muzzle_snds_B";		// Marksman Rifle
 
-_scope1 = "optic_ACO_grn";		// Short Range
-_scope2 = "optic_MRCO";			// Medium Range
-_scope3 = "optic_AMS";			// Medium - Long Range
-_scope4 = "optic_LRPS";			// Long Range
+_scope1 = "optic_ACO_grn";			// Short Range
+_scope2 = "optic_MRCO";				// Medium Range
+_scope3 = "optic_AMS";				// Medium - Long Range
+_scope4 = "optic_LRPS";				// Long Range
 
-_bipod1 = "bipod_03_F_blk";		// Light Machine Gun
-_bipod2 = "bipod_03_F_blk";		// Medium Machine Gun
-_bipod3 = "bipod_03_F_blk";		// Marksman
-_bipod4 = "";					// Sniper
+_bipod1 = "bipod_03_F_blk";			// Light Machine Gun
+_bipod2 = "bipod_03_F_blk";			// Medium Machine Gun
+_bipod3 = "bipod_03_F_blk";			// Marksman
+_bipod4 = "";						// Sniper
 
 // Default setup
 _attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
